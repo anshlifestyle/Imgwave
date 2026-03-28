@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWVM3LJ900"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZWVM3LJ900');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Toolify – Compress, Convert & AI-Enhance Images Free | JPG PNG WEBP PDF No Upload</title>
+<meta name="description" content="Shrink images by 90%, convert JPG to PNG, PDF, WEBP and 27+ formats — all free, instant &amp; 100% private. No upload. No signup. No limits. AI-powered image compressor, converter &amp; enhancer right in your browser. Try Image Toolify free today.">
+<meta name="keywords" content="The easiest free online image converter. Convert your image to JPG, JPEG, PNG, WebP, HEIC, BMP, GIF, TIFF or PDF format, image compressor, image converter, online image converter, convert image format online, photo converter, JPG to PNG, JPG to PDF, JPG to WEBP, PNG to JPG, PNG to WEBP, BMP to JPG, WEBP to PNG, HEIC to JPG, compress jpg online, compress png, reduce image size, free image tools, image optimizer">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="Image Toolify">
+<meta name="theme-color" content="#009688">
+<link rel="canonical" href="https://imagetoolify.online/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://imagetoolify.online/">
+<meta property="og:title" content="Image Toolify – Compress, Convert &amp; AI-Enhance Images Free | No Upload Required">
+<meta property="og:description" content="Shrink images by 90%, convert between 27+ formats, and AI-enhance photos — all free, instant &amp; 100% private. No upload, no signup, no limits.">
+<meta property="og:site_name" content="Image Toolify">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Image Toolify – Free Image Compressor, Converter &amp; AI Enhancer">
+<meta name="twitter:description" content="Compress images 90%, convert JPG→PNG→PDF→WEBP and 27+ formats, apply AI filters — all free &amp; 100% browser-based. Zero uploads. Zero signup.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Image Toolify","url":"https://imagetoolify.online","description":"Compress images by 90%, convert between 27+ formats (JPG, PNG, WEBP, PDF, BMP, GIF, TIFF, HEIC), and AI-enhance photos — all free, instant, and 100% browser-based. No upload. No signup. No limits.","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+:root,[data-theme="light"]{
+  --dp:#00796B;--lp:#B2DFDB;--pr:#009688;--tx:#212121;--ts:#757575;--dv:#BDBDBD;
+  --bg:#F5FAFA;--card:#FFFFFF;--nav-bg:rgba(255,255,255,.95);--sh:rgba(0,150,136,.13);
+  --border:#C8E6E3;--panel:rgba(178,223,219,.18);--inp:#FFFFFF;
+  --tag:rgba(178,223,219,.45);--img-bg:#e0f2f1;--alt:#F0FAF9;
+  --tk-bg:#B2DFDB;--tk-k:#00796B;
+}
+[data-theme="dark"]{
+  --dp:#4DB6AC;--lp:#1B3533;--pr:#26A69A;--tx:#E0F2F1;--ts:#7FA09D;--dv:#243534;
+  --bg:#0E1918;--card:#142220;--nav-bg:rgba(14,25,24,.97);--sh:rgba(0,150,136,.22);
+  --border:#1B3533;--panel:rgba(27,53,51,.55);--inp:#1A2E2C;
+  --tag:rgba(0,121,107,.3);--img-bg:#0c1d1c;--alt:#0c1817;
+  --tk-bg:#00796B;--tk-k:#B2DFDB;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);line-height:1.6;overflow-x:hidden;transition:background .3s,color .3s}
+#sparkle-canvas{position:fixed;inset:0;pointer-events:none;z-index:0}
+.wrap{position:relative;z-index:1}
+
+/* NAVBAR */
+.navbar{position:sticky;top:0;z-index:999;display:flex;justify-content:space-between;align-items:center;padding:.85rem 4%;gap:10px;background:var(--nav-bg);backdrop-filter:blur(18px);border-bottom:2px solid var(--border);box-shadow:0 2px 18px var(--sh);transition:background .3s,border-color .3s}
+.logo{font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:800;color:var(--dp);letter-spacing:-.5px;cursor:pointer;display:flex;align-items:center;gap:7px;flex-shrink:0;text-decoration:none}
+.logo i{font-size:1.05rem;color:var(--pr)}
+.logo span{color:var(--pr)}
+.nav-links{display:flex;list-style:none;gap:2px;flex-wrap:wrap}
+.nav-links li a{display:block;text-decoration:none;color:var(--ts);font-size:.83rem;font-weight:600;padding:6px 12px;border-radius:8px;transition:.2s;cursor:pointer}
+.nav-links li a:hover,.nav-links li a.active{color:var(--dp);background:var(--lp)}
+.theme-btn{display:flex;align-items:center;gap:7px;background:none;border:none;cursor:pointer;padding:6px 10px;border-radius:10px;color:var(--ts);font-size:.8rem;font-weight:600;font-family:'DM Sans',sans-serif;transition:.2s;flex-shrink:0}
+.theme-btn:hover{background:var(--lp);color:var(--dp)}
+.tk-track{width:42px;height:23px;border-radius:12px;background:var(--tk-bg);position:relative;transition:.3s;flex-shrink:0;border:1px solid rgba(0,0,0,.08)}
+.tk-knob{position:absolute;top:3px;left:3px;width:17px;height:17px;border-radius:50%;background:var(--tk-k);transition:transform .3s;box-shadow:0 1px 4px rgba(0,0,0,.22)}
+[data-theme="dark"] .tk-knob{transform:translateX(19px)}
+
+/* PAGES */
+.page{display:none;min-height:60vh;padding-bottom:40px}
+.page.active{display:block;animation:pgIn .3s ease}
+@keyframes pgIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+/* HERO */
+.hero{position:relative;text-align:center;padding:90px 20px 80px;background:linear-gradient(155deg,#004D40 0%,#00796B 40%,#009688 70%,#26A69A 100%);color:#fff;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='30' cy='30' r='1.4' fill='rgba(255,255,255,.06)'/%3E%3C/svg%3E")}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;font-size:.72rem;font-weight:700;padding:5px 14px;border-radius:100px;letter-spacing:.07em;text-transform:uppercase;margin-bottom:20px;animation:pgIn .7s .1s both}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.85rem,5vw,3.6rem);font-weight:800;line-height:1.1;letter-spacing:-1.5px;margin-bottom:16px;animation:pgIn .7s .2s both}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,#B2DFDB,#E0F2F1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero p{color:rgba(255,255,255,.85);font-size:.98rem;max-width:510px;margin:0 auto 28px;animation:pgIn .7s .3s both}
+.hero-btns{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;animation:pgIn .7s .4s both}
+.hero-stats{display:flex;justify-content:center;gap:40px;margin-top:44px;animation:pgIn .7s .5s both;position:relative;z-index:1}
+.stat-num{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:800;color:#B2DFDB}
+.stat-lbl{font-size:.68rem;letter-spacing:.07em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--pr);color:#fff;font-family:'DM Sans',sans-serif;font-weight:700;font-size:.87rem;padding:10px 22px;border-radius:10px;text-decoration:none;border:none;cursor:pointer;transition:all .2s;letter-spacing:.02em}
+.btn:hover{background:var(--dp);transform:translateY(-2px);box-shadow:0 8px 22px var(--sh)}
+.btn-wh{background:#fff;color:var(--dp)}.btn-wh:hover{background:#E0F2F1;color:var(--dp)}
+.btn-out{background:transparent;color:var(--pr);border:2px solid var(--pr)}.btn-out:hover{background:var(--lp);color:var(--dp);border-color:var(--dp)}
+.btn-sm{padding:7px 15px;font-size:.81rem;border-radius:8px}
+.btn-ai{background:linear-gradient(135deg,#00796B,#009688,#26A69A);color:#fff}.btn-ai:hover{opacity:.88}
+.btn-ghost{background:rgba(255,255,255,.18);color:#fff;backdrop-filter:blur(4px)}.btn-ghost:hover{background:rgba(255,255,255,.28)}
+
+/* SECTIONS */
+.section{padding:56px 5%}
+.section-alt{background:var(--alt);transition:background .3s}
+.sec-title{font-family:'Playfair Display',serif;font-size:1.78rem;font-weight:800;color:var(--dp);letter-spacing:-.5px;margin-bottom:8px}
+.sec-sub{color:var(--ts);margin-bottom:32px;font-size:.95rem}
+
+/* TOOL CARDS */
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.tool-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:28px 22px;text-align:center;cursor:pointer;transition:all .3s;position:relative;overflow:hidden}
+.tool-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--dp),var(--pr));transform:scaleX(0);transform-origin:left;transition:.35s}
+.tool-card:hover{transform:translateY(-6px);box-shadow:0 14px 34px var(--sh);border-color:var(--pr)}
+.tool-card:hover::after{transform:scaleX(1)}
+.card-icon{width:56px;height:56px;display:flex;align-items:center;justify-content:center;background:var(--lp);border-radius:14px;font-size:1.4rem;color:var(--dp);margin:0 auto 16px;transition:background .3s}
+.tool-card h3{font-size:1.02rem;font-weight:700;color:var(--dp);margin-bottom:8px}
+.tool-card p{color:var(--ts);font-size:.85rem;margin-bottom:18px;line-height:1.65}
+
+/* AD */
+.ad-unit{background:linear-gradient(135deg,rgba(178,223,219,.28),rgba(178,223,219,.08));border:1.5px dashed var(--dv);border-radius:10px;padding:14px;text-align:center;color:var(--ts);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;margin:20px auto;max-width:960px}
+
+/* HOW GRID */
+.how-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.how-item{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:24px 20px;text-align:center;transition:all .3s}
+.how-item:hover{border-color:var(--pr);box-shadow:0 8px 22px var(--sh);transform:translateY(-4px)}
+.how-num{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--dp),var(--pr));color:#fff;font-weight:800;font-size:1.1rem;display:flex;align-items:center;justify-content:center;margin:0 auto 13px}
+.how-item h4{font-weight:700;color:var(--dp);margin-bottom:6px;font-size:.95rem}
+.how-item p{color:var(--ts);font-size:.83rem}
+
+/* FORMAT TABLE */
+.fmt-tbl-wrap{overflow-x:auto}
+.fmt-tbl{width:100%;border-collapse:collapse;font-size:.86rem}
+.fmt-tbl th{background:linear-gradient(135deg,var(--dp),var(--pr));color:#fff;padding:12px 16px;text-align:left;font-weight:700;font-size:.76rem;letter-spacing:.05em;text-transform:uppercase}
+.fmt-tbl th:first-child{border-radius:10px 0 0 0}.fmt-tbl th:last-child{border-radius:0 10px 0 0}
+.fmt-tbl td{padding:11px 16px;border-bottom:1px solid var(--border);color:var(--ts);transition:background .2s}
+.fmt-tbl tr:hover td{background:var(--panel)}
+.fmt-tbl td:first-child{font-weight:700;color:var(--dp)}
+.fmt-tbl tr:last-child td{border-bottom:none}
+
+/* FAQ */
+.faq-list{display:flex;flex-direction:column;gap:12px;max-width:820px;margin:0 auto}
+.faq-item{background:var(--card);border:1.5px solid var(--border);border-radius:12px;overflow:hidden}
+.faq-q{padding:15px 20px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:700;color:var(--dp);font-size:.92rem;transition:.2s;user-select:none}
+.faq-q:hover{background:var(--panel)}.faq-q i{color:var(--pr);transition:transform .3s;flex-shrink:0;margin-left:12px}
+.faq-item.open .faq-q i{transform:rotate(180deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease,padding .3s;color:var(--ts);font-size:.88rem;line-height:1.78;padding:0 20px}
+.faq-item.open .faq-a{max-height:220px;padding:0 20px 16px}
+
+/* TRUST */
+.trust-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:15px}
+.trust-item{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:22px 16px;text-align:center;transition:all .3s}
+.trust-item:hover{border-color:var(--pr);transform:translateY(-3px);box-shadow:0 8px 20px var(--sh)}
+.trust-icon{font-size:1.85rem;margin-bottom:9px}
+.trust-item h4{font-weight:700;color:var(--dp);font-size:.9rem;margin-bottom:4px}
+.trust-item p{color:var(--ts);font-size:.79rem}
+
+/* TAGS */
+.fmt-tags{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin-top:20px}
+.fmt-tag{background:var(--tag);color:var(--dp);font-size:.8rem;font-weight:700;padding:7px 15px;border-radius:100px;border:1px solid var(--border);cursor:pointer;transition:all .2s}
+.fmt-tag:hover{background:var(--pr);color:#fff;border-color:var(--pr);transform:translateY(-2px)}
+
+/* SEO BLOCK */
+.seo-block{max-width:840px;margin:0 auto;color:var(--ts);line-height:1.85;font-size:.94rem}
+.seo-block h3{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;color:var(--dp);margin:24px 0 9px}
+.seo-block p{margin-bottom:13px}
+.seo-block ul{margin:9px 0 13px 20px;display:flex;flex-direction:column;gap:5px}
+.seo-block ul li::marker{color:var(--pr)}
+.seo-block strong{color:var(--dp)}
+
+/* TOOL PAGES */
+.tool-page{padding:46px 5%;max-width:1080px;margin:0 auto}
+.tool-page h2{font-family:'Playfair Display',serif;font-size:1.85rem;font-weight:800;color:var(--dp);letter-spacing:-.5px;margin-bottom:4px}
+.tool-page .subtitle{color:var(--ts);margin-bottom:24px}
+
+.upload-box{border:2.5px dashed var(--pr);padding:50px 28px;text-align:center;border-radius:14px;cursor:pointer;background:var(--panel);transition:all .3s;margin-bottom:22px}
+.upload-box:hover,.upload-box.dragover{background:rgba(0,150,136,.11);border-color:var(--dp)}
+.upload-icon{font-size:2.5rem;color:var(--pr);margin-bottom:11px}
+.upload-box h3{color:var(--dp);margin-bottom:5px}
+.upload-box p{color:var(--ts);font-size:.83rem}
+
+.ctrl-bar{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:17px 21px;display:flex;align-items:center;gap:13px;margin-bottom:17px;flex-wrap:wrap;box-shadow:0 2px 10px var(--sh)}
+.ctrl-bar label{font-weight:600;font-size:.86rem;color:var(--dp);white-space:nowrap}
+.q-badge{background:var(--dp);color:#fff;font-weight:800;font-size:.86rem;padding:3px 12px;border-radius:100px;min-width:50px;text-align:center}
+input[type="range"]{-webkit-appearance:none;flex:1;min-width:130px;height:5px;border-radius:3px;background:var(--lp);outline:none}
+input[type="range"]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:var(--dp);cursor:pointer;box-shadow:0 0 8px var(--sh)}
+
+.img-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:17px}
+.img-panel{background:var(--card);border:1.5px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:0 2px 10px var(--sh)}
+.img-panel-hd{padding:11px 15px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;background:var(--panel)}
+.img-panel-hd span{font-size:.75rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--dp)}
+.sz-badge{font-size:.75rem;font-weight:700;padding:3px 10px;border-radius:100px}
+.sz-orig{background:rgba(189,189,189,.2);color:var(--ts)}
+.sz-comp{background:rgba(0,150,136,.12);color:var(--dp)}
+.img-panel img,.img-panel canvas{width:100%;display:block;background:var(--img-bg);max-height:300px;object-fit:contain}
+
+.save-bar{background:rgba(0,150,136,.07);border:1.5px solid rgba(0,150,136,.2);border-radius:10px;padding:12px 17px;display:flex;align-items:center;gap:10px;margin-bottom:15px;color:var(--dp);font-weight:600;font-size:.9rem}
+
+/* AI PANEL */
+.ai-panel{background:var(--panel);border:1.5px solid rgba(0,121,107,.22);border-radius:14px;padding:19px 21px;margin-bottom:17px}
+.ai-hd{display:flex;align-items:center;gap:10px;margin-bottom:13px}
+.ai-hd h4{font-family:'Playfair Display',serif;font-size:1.02rem;font-weight:700;color:var(--dp)}
+.ai-badge{display:inline-flex;align-items:center;gap:4px;background:var(--dp);color:#fff;font-size:.64rem;font-weight:700;padding:3px 9px;border-radius:100px;letter-spacing:.06em;text-transform:uppercase}
+.ai-grid{display:flex;flex-wrap:wrap;gap:8px}
+.ai-btn{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1.5px solid var(--border);color:var(--dp);font-size:.8rem;font-weight:600;padding:8px 13px;border-radius:10px;cursor:pointer;transition:all .2s;font-family:'DM Sans',sans-serif}
+.ai-btn:hover{background:var(--lp);border-color:var(--pr);transform:translateY(-1px)}
+.ai-prog{margin-top:12px;display:none}
+.ai-prog-bar{height:5px;background:var(--border);border-radius:3px;overflow:hidden}
+.ai-prog-fill{height:100%;background:linear-gradient(90deg,var(--dp),var(--pr));border-radius:3px;width:0%;transition:width .05s}
+.ai-prog-lbl{font-size:.75rem;color:var(--ts);margin-bottom:6px}
+
+/* BULK */
+.bulk-list{display:flex;flex-direction:column;gap:10px;margin-top:13px}
+.bulk-item{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:12px 15px;display:flex;align-items:center;gap:12px;animation:pgIn .3s ease;box-shadow:0 2px 8px var(--sh)}
+.bulk-thumb{width:44px;height:44px;border-radius:8px;object-fit:cover;background:var(--lp);flex-shrink:0}
+.bulk-info{flex:1;min-width:0}
+.bulk-name{font-weight:600;font-size:.85rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--dp)}
+.bulk-meta{color:var(--ts);font-size:.76rem}
+.bulk-pct{font-size:.78rem;font-weight:800;color:var(--pr);white-space:nowrap}
+
+/* CONVERTER */
+.conv-wrap{max-width:900px;margin:0 auto}
+.conv-row{display:grid;grid-template-columns:1fr auto 1fr;gap:13px;align-items:center;margin-bottom:24px}
+.conv-arrow{width:40px;height:40px;background:var(--dp);color:#fff;display:flex;align-items:center;justify-content:center;border-radius:50%;font-size:.9rem;flex-shrink:0}
+.conv-sel{display:flex;flex-direction:column;gap:5px}
+.conv-sel label{font-size:.75rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--dp)}
+.conv-select{width:100%;background:var(--inp);border:2px solid var(--border);border-radius:10px;padding:11px 14px;color:var(--tx);font-family:'DM Sans',sans-serif;font-size:.92rem;font-weight:600;outline:none;cursor:pointer;transition:.2s}
+.conv-select:focus{border-color:var(--pr)}
+.conv-drop{border:2.5px dashed var(--pr);padding:46px 28px;text-align:center;border-radius:14px;cursor:pointer;background:var(--panel);transition:all .3s;margin-bottom:20px}
+.conv-drop:hover,.conv-drop.dragover{background:rgba(0,150,136,.11);border-color:var(--dp)}
+.conv-result{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:20px;display:none;box-shadow:0 2px 10px var(--sh)}
+.conv-img{width:100%;max-height:330px;object-fit:contain;border-radius:10px;background:var(--img-bg);display:block;margin-bottom:14px}
+.conv-info{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.conv-chip{background:var(--tag);border-radius:8px;padding:7px 13px;font-size:.82rem;font-weight:600;color:var(--dp)}
+.conv-chip span{color:var(--ts);font-weight:400}
+.conv-warn{background:rgba(255,152,0,.08);border:1.5px solid rgba(255,152,0,.22);border-radius:10px;padding:13px 17px;color:#E65100;font-weight:600;font-size:.87rem;display:flex;align-items:center;gap:10px;margin-bottom:13px}
+
+/* INNER PAGES */
+.inner-page{padding:60px 5%;max-width:860px;margin:0 auto}
+.inner-page h2{font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--dp);letter-spacing:-1px;margin-bottom:12px}
+.inner-page .date{color:var(--ts);font-size:.8rem;margin-bottom:24px}
+.inner-page>p{color:var(--ts);line-height:1.9;margin-bottom:16px;font-size:.97rem}
+
+/* FEATURES GRID */
+.feat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(195px,1fr));gap:15px;margin-top:32px}
+.feat-item{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:20px;transition:.25s}
+.feat-item:hover{border-color:var(--pr);box-shadow:0 6px 18px var(--sh)}
+.feat-item .fi{font-size:1.45rem;margin-bottom:9px}
+.feat-item h4{font-weight:700;color:var(--dp);margin-bottom:5px;font-size:.9rem}
+.feat-item p{color:var(--ts);font-size:.82rem;margin:0}
+
+/* CONTACT FORM */
+.form-group{margin-bottom:15px}
+.form-group label{display:block;font-size:.74rem;font-weight:700;margin-bottom:7px;color:var(--dp);letter-spacing:.06em;text-transform:uppercase}
+.form-group input,.form-group textarea{width:100%;background:var(--inp);border:1.5px solid var(--dv);border-radius:10px;padding:11px 14px;color:var(--tx);font-family:'DM Sans',sans-serif;font-size:.92rem;outline:none;transition:.2s}
+.form-group input:focus,.form-group textarea:focus{border-color:var(--pr)}
+.form-group textarea{resize:vertical;min-height:120px}
+.form-ok{background:rgba(0,150,136,.1);border:1.5px solid rgba(0,150,136,.3);color:var(--dp);border-radius:10px;padding:13px 16px;margin-top:14px;display:none;font-weight:600;align-items:center;gap:8px}
+
+/* LEGAL SECTION */
+.legal-section{background:var(--card);border:1.5px solid var(--border);border-left:4px solid var(--pr);border-radius:0 12px 12px 0;padding:20px 22px;margin-bottom:16px}
+.legal-section h3{margin:0 0 9px;color:var(--dp);font-size:.98rem;font-weight:700;display:flex;align-items:center;gap:8px}
+.legal-section p{color:var(--ts);line-height:1.85;font-size:.92rem;margin:0 0 8px}
+.legal-section p:last-child{margin:0}
+.legal-section ul{color:var(--ts);font-size:.92rem;line-height:1.9;padding-left:20px}
+
+/* CONTACT CARDS */
+.contact-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-bottom:36px}
+.contact-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:20px 16px;text-align:center;transition:.3s}
+.contact-card:hover{border-color:var(--pr);box-shadow:0 6px 20px var(--sh)}
+.contact-card .ico{font-size:1.7rem;margin-bottom:9px}
+.contact-card h4{font-weight:700;color:var(--dp);margin-bottom:4px;font-size:.9rem}
+.contact-card p{color:var(--ts);font-size:.82rem;margin:0}
+
+/* FOOTER */
+.site-footer{background:var(--dp);color:#fff;padding:52px 5% 24px;margin-top:60px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:34px}
+.footer-brand .logo{color:#fff;margin-bottom:11px;display:inline-flex}
+.footer-brand .logo span,.footer-brand .logo i{color:#B2DFDB}
+.footer-brand p{color:rgba(255,255,255,.88);font-size:.85rem;line-height:1.75;max-width:255px}
+.footer-col h4{font-size:.7rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#E0F2F1;margin-bottom:13px}
+.footer-col ul{list-style:none}
+.footer-col ul li{margin-bottom:9px}
+.footer-col ul li a{color:rgba(255,255,255,.88);text-decoration:none;font-size:.87rem;transition:.2s;font-weight:500;cursor:pointer}
+.footer-col ul li a:hover{color:#B2DFDB}
+.social-row{display:flex;gap:9px}
+.social-row a{width:35px;height:35px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.28);border-radius:9px;color:#fff;text-decoration:none;transition:.2s;font-size:.9rem}
+.social-row a:hover{background:rgba(178,223,219,.32)}
+.footer-note{font-size:.79rem;color:rgba(255,255,255,.85);margin-top:13px;line-height:1.6;font-weight:500}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.2);padding-top:19px;text-align:center;color:rgba(255,255,255,.9);font-size:.78rem;font-weight:500}
+
+/* PRIVACY CTA */
+.cta-banner{background:linear-gradient(135deg,var(--dp),var(--pr));border-radius:14px;padding:24px 26px;margin-top:28px;color:#fff;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.cta-banner h4{font-weight:700;margin-bottom:5px;font-size:.98rem}
+.cta-banner p{color:rgba(255,255,255,.85);font-size:.87rem;margin:0}
+.cta-banner-text{flex:1;min-width:200px}
+
+/* HIGHLIGHT BOX */
+.highlight-box{background:linear-gradient(135deg,rgba(0,121,107,.1),rgba(0,150,136,.06));border:2px solid rgba(0,150,136,.28);border-radius:14px;padding:20px 22px;margin-bottom:26px;display:flex;gap:14px;align-items:flex-start}
+.highlight-box .hi{font-size:1.7rem;flex-shrink:0}
+.highlight-box h4{font-weight:700;color:var(--dp);margin-bottom:5px}
+.highlight-box p{color:var(--ts);font-size:.92rem;line-height:1.8;margin:0}
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE — MOBILE FIRST
+═══════════════════════════════════════════ */
+
+/* ── HAMBURGER BUTTON ── */
+.hamburger{
+  display:none;
+  flex-direction:column;justify-content:center;align-items:center;
+  gap:5px;background:none;border:none;cursor:pointer;
+  padding:8px;border-radius:8px;transition:.2s;flex-shrink:0;
+}
+.hamburger:hover{background:var(--lp)}
+.hamburger span{
+  display:block;width:22px;height:2.5px;
+  background:var(--dp);border-radius:3px;
+  transition:all .3s ease;
+}
+.hamburger.open span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.hamburger.open span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+
+/* ── MOBILE NAV DRAWER ── */
+.mobile-nav{
+  display:none;
+  position:fixed;top:0;left:0;right:0;bottom:0;
+  background:rgba(0,0,0,.5);z-index:998;
+  opacity:0;transition:opacity .3s;
+}
+.mobile-nav.open{opacity:1}
+.mobile-drawer{
+  position:absolute;top:0;right:0;bottom:0;
+  width:260px;max-width:85vw;
+  background:var(--card);
+  padding:0;
+  box-shadow:-6px 0 30px rgba(0,0,0,.18);
+  transform:translateX(100%);
+  transition:transform .35s cubic-bezier(.22,.68,0,1.2);
+  display:flex;flex-direction:column;
+}
+.mobile-nav.open .mobile-drawer{transform:translateX(0)}
+.mobile-drawer-head{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 20px;
+  border-bottom:1.5px solid var(--border);
+  background:var(--panel);
+}
+.mobile-drawer-head .logo{font-size:1.2rem}
+.mobile-close{
+  background:none;border:none;cursor:pointer;
+  font-size:1.2rem;color:var(--ts);padding:6px;
+  border-radius:8px;transition:.2s;
+}
+.mobile-close:hover{background:var(--lp);color:var(--dp)}
+.mobile-drawer ul{
+  list-style:none;padding:14px 12px;flex:1;overflow-y:auto;
+}
+.mobile-drawer ul li a{
+  display:flex;align-items:center;gap:12px;
+  padding:12px 14px;border-radius:10px;
+  color:var(--ts);font-weight:600;font-size:.93rem;
+  cursor:pointer;transition:.2s;text-decoration:none;
+}
+.mobile-drawer ul li a:hover,.mobile-drawer ul li a.active{
+  background:var(--lp);color:var(--dp);
+}
+.mobile-drawer ul li a i{
+  width:18px;text-align:center;color:var(--pr);font-size:.9rem;
+}
+.mobile-drawer-footer{
+  padding:16px 20px;
+  border-top:1.5px solid var(--border);
+  background:var(--panel);
+}
+.mobile-theme-row{
+  display:flex;align-items:center;justify-content:space-between;
+}
+.mobile-theme-row span{font-size:.85rem;font-weight:600;color:var(--dp)}
+
+/* ═══ TABLET (max 900px) ═══ */
+@media(max-width:900px){
+  /* Navbar */
+  .nav-links{display:none}
+  .hamburger{display:flex}
+
+  /* Hero */
+  .hero{padding:70px 20px 65px}
+  .hero h1{font-size:clamp(1.7rem,5vw,2.8rem);letter-spacing:-1px}
+  .hero p{font-size:.93rem}
+  .hero-stats{gap:24px}
+  .stat-num{font-size:1.6rem}
+
+  /* Sections */
+  .section{padding:46px 4%}
+
+  /* Tool cards */
+  .tools-grid{grid-template-columns:1fr 1fr;gap:16px}
+
+  /* How grid */
+  .how-grid{grid-template-columns:1fr 1fr;gap:16px}
+
+  /* Trust grid */
+  .trust-grid{grid-template-columns:1fr 1fr 1fr;gap:14px}
+
+  /* Image preview */
+  .img-grid{grid-template-columns:1fr}
+
+  /* Converter */
+  .conv-row{grid-template-columns:1fr 1fr;gap:12px}
+  .conv-arrow{display:none}
+
+  /* Footer */
+  .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
+  .site-footer{padding:44px 4% 22px}
+
+  /* Inner pages */
+  .inner-page{padding:46px 4%}
+  .tool-page{padding:36px 4%}
+
+  /* Format table */
+  .fmt-tbl th,.fmt-tbl td{padding:9px 12px;font-size:.82rem}
+
+  /* Contact form 2 col → 1 col */
+  .form-2col{grid-template-columns:1fr !important}
+}
+
+/* ═══ MOBILE (max 600px) ═══ */
+@media(max-width:600px){
+  /* Navbar */
+  .navbar{padding:.75rem 4%}
+  .logo{font-size:1.25rem}
+  .theme-btn .tk-track{width:38px;height:21px}
+
+  /* Hero */
+  .hero{padding:56px 16px 52px}
+  .hero-badge{font-size:.66rem;padding:4px 12px}
+  .hero h1{font-size:clamp(1.55rem,7vw,2.2rem);letter-spacing:-.5px;line-height:1.15}
+  .hero p{font-size:.88rem;margin-bottom:22px}
+  .hero-btns{gap:8px}
+  .hero-btns .btn{padding:9px 16px;font-size:.82rem}
+  .hero-stats{flex-wrap:wrap;gap:18px;justify-content:center;margin-top:32px}
+  .stat-num{font-size:1.5rem}
+  .stat-lbl{font-size:.64rem}
+
+  /* Sections */
+  .section{padding:38px 4%}
+  .sec-title{font-size:1.45rem}
+  .sec-sub{font-size:.88rem;margin-bottom:24px}
+
+  /* Tool cards — single column */
+  .tools-grid{grid-template-columns:1fr;gap:14px}
+  .tool-card{padding:22px 18px}
+
+  /* How grid — single column */
+  .how-grid{grid-template-columns:1fr;gap:14px}
+  .how-item{padding:20px 16px}
+
+  /* Trust grid — 2 col on mobile */
+  .trust-grid{grid-template-columns:1fr 1fr;gap:12px}
+  .trust-item{padding:16px 12px}
+  .trust-icon{font-size:1.6rem}
+  .trust-item h4{font-size:.84rem}
+  .trust-item p{font-size:.74rem}
+
+  /* Format tags */
+  .fmt-tag{font-size:.75rem;padding:6px 12px}
+
+  /* Format table scrollable */
+  .fmt-tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .fmt-tbl{min-width:460px}
+
+  /* FAQ */
+  .faq-q{font-size:.87rem;padding:13px 16px}
+  .faq-a{font-size:.84rem;padding:0 16px}
+  .faq-item.open .faq-a{padding:0 16px 14px}
+
+  /* SEO block */
+  .seo-block{font-size:.88rem}
+  .seo-block h3{font-size:1.08rem}
+
+  /* Tool pages */
+  .tool-page{padding:28px 4%}
+  .tool-page h2{font-size:1.45rem}
+  .tool-page .subtitle{font-size:.87rem;margin-bottom:18px}
+
+  /* Upload boxes */
+  .upload-box{padding:36px 18px}
+  .conv-drop{padding:34px 18px}
+  .upload-icon{font-size:2.1rem}
+  .upload-box h3,.conv-drop h3{font-size:.97rem}
+  .upload-box p,.conv-drop p{font-size:.78rem}
+
+  /* Controls bar */
+  .ctrl-bar{padding:13px 15px;gap:10px}
+  .ctrl-bar label{font-size:.8rem}
+
+  /* AI panel */
+  .ai-panel{padding:15px 15px}
+  .ai-hd h4{font-size:.9rem}
+  .ai-grid{gap:6px}
+  .ai-btn{padding:7px 10px;font-size:.76rem;gap:5px}
+
+  /* Image panels */
+  .img-panel-hd{padding:9px 12px}
+  .img-panel img,.img-panel canvas{max-height:220px}
+
+  /* Bulk items */
+  .bulk-item{padding:10px 12px;gap:10px}
+  .bulk-thumb{width:38px;height:38px}
+  .bulk-name{font-size:.82rem}
+  .bulk-meta{font-size:.72rem}
+
+  /* Converter */
+  .conv-row{grid-template-columns:1fr;gap:10px}
+  .conv-chip{font-size:.78rem;padding:6px 10px}
+  .conv-info{gap:7px}
+
+  /* Buttons */
+  .btn{padding:9px 18px;font-size:.84rem}
+  .btn-sm{padding:6px 12px;font-size:.78rem}
+
+  /* Inner pages */
+  .inner-page{padding:34px 4%}
+  .inner-page h2{font-size:1.65rem}
+
+  /* Features grid */
+  .feat-grid{grid-template-columns:1fr 1fr;gap:12px}
+  .feat-item{padding:16px}
+
+  /* Contact cards */
+  .contact-cards{grid-template-columns:1fr 1fr;gap:12px}
+  .contact-card{padding:16px 12px}
+  .contact-card .ico{font-size:1.5rem}
+  .contact-card h4{font-size:.85rem}
+  .contact-card p{font-size:.78rem}
+
+  /* Legal sections */
+  .legal-section{padding:16px 16px}
+  .legal-section h3{font-size:.9rem}
+  .legal-section p,.legal-section ul{font-size:.87rem}
+
+  /* CTA banner */
+  .cta-banner{padding:18px 18px;gap:14px}
+  .cta-banner h4{font-size:.92rem}
+  .cta-banner p{font-size:.83rem}
+
+  /* Highlight box */
+  .highlight-box{padding:16px 16px;gap:12px}
+  .highlight-box .hi{font-size:1.5rem}
+
+  /* Footer */
+  .footer-grid{grid-template-columns:1fr;gap:22px}
+  .site-footer{padding:38px 4% 20px;margin-top:40px}
+  .footer-brand p{max-width:100%}
+  .footer-col h4{margin-bottom:10px}
+  .footer-bottom{font-size:.73rem;padding-top:16px}
+
+  /* Ad unit */
+  .ad-unit{padding:11px;font-size:.68rem}
+}
+
+/* ═══ SMALL PHONES (max 360px) ═══ */
+@media(max-width:360px){
+  .hero h1{font-size:1.4rem}
+  .trust-grid{grid-template-columns:1fr}
+  .feat-grid{grid-template-columns:1fr}
+  .contact-cards{grid-template-columns:1fr}
+  .hero-btns{flex-direction:column;align-items:center}
+  .hero-btns .btn{width:100%;justify-content:center}
+  .tool-page h2{font-size:1.3rem}
+  .sec-title{font-size:1.3rem}
+}
+
+/* ═══ LARGE DESKTOP (min 1280px) ═══ */
+@media(min-width:1280px){
+  .section{padding:70px 8%}
+  .tool-page{padding:56px 8%;max-width:1180px}
+  .inner-page{padding:70px 8%;max-width:960px}
+  .hero{padding:110px 20px 90px}
+  .hero h1{font-size:4rem}
+  .hero-stats{gap:60px;margin-top:52px}
+  .tools-grid{grid-template-columns:repeat(4,1fr)}
+  .trust-grid{grid-template-columns:repeat(6,1fr)}
+  .footer-grid{grid-template-columns:2.5fr 1fr 1fr 1fr;gap:56px}
+  .site-footer{padding:60px 8% 28px}
+}
+
+</style>
+</head>
+<body>
+
+<canvas id="sparkle-canvas"></canvas>
+<div class="wrap">
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a class="logo" onclick="goPage('home')"><i class="fas fa-wand-magic-sparkles"></i>Image<span>Toolify</span></a>
+  <ul class="nav-links">
+    <li><a id="nav-home" class="active" onclick="goPage('home')">Home</a></li>
+    <li><a id="nav-single" onclick="goPage('single')">Compress</a></li>
+    <li><a id="nav-bulk" onclick="goPage('bulk')">Bulk</a></li>
+    <li><a id="nav-converter" onclick="goPage('converter')">Converter</a></li>
+    <li><a id="nav-about" onclick="goPage('about')">About</a></li>
+    <li><a id="nav-contact" onclick="goPage('contact')">Contact</a></li>
+  </ul>
+  <div style="display:flex;align-items:center;gap:8px">
+    <button class="theme-btn" onclick="toggleTheme()" aria-label="Toggle dark mode">
+      <div class="tk-track"><div class="tk-knob"></div></div>
+      <span id="themeIcon">☀️</span>
+    </button>
+    <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE NAV DRAWER -->
+<div class="mobile-nav" id="mobileNav" onclick="closeMobileNav(event)">
+  <div class="mobile-drawer">
+    <div class="mobile-drawer-head">
+      <a class="logo" onclick="goPage('home');closeMobileNav()"><i class="fas fa-wand-magic-sparkles"></i>Image<span>Toolify</span></a>
+      <button class="mobile-close" onclick="closeMobileNav()"><i class="fas fa-times"></i></button>
+    </div>
+    <ul>
+      <li><a id="mnav-home" class="active" onclick="goPage('home');closeMobileNav()"><i class="fas fa-home"></i> Home</a></li>
+      <li><a id="mnav-single" onclick="goPage('single');closeMobileNav()"><i class="fas fa-compress-alt"></i> Image Compressor</a></li>
+      <li><a id="mnav-bulk" onclick="goPage('bulk');closeMobileNav()"><i class="fas fa-layer-group"></i> Bulk Compressor</a></li>
+      <li><a id="mnav-converter" onclick="goPage('converter');closeMobileNav()"><i class="fas fa-exchange-alt"></i> Format Converter</a></li>
+      <li><a id="mnav-about" onclick="goPage('about');closeMobileNav()"><i class="fas fa-info-circle"></i> About</a></li>
+      <li><a id="mnav-contact" onclick="goPage('contact');closeMobileNav()"><i class="fas fa-envelope"></i> Contact</a></li>
+      <li><a onclick="goPage('disclaimer');closeMobileNav()"><i class="fas fa-gavel"></i> Disclaimer</a></li>
+      <li><a onclick="goPage('privacy');closeMobileNav()"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+    </ul>
+    <div class="mobile-drawer-footer">
+      <div class="mobile-theme-row">
+        <span>Dark Mode</span>
+        <button class="theme-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" style="padding:4px 8px">
+          <div class="tk-track"><div class="tk-knob"></div></div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ HOME ══ -->
+<div class="page active" id="page-home">
+  <div class="hero">
+    <div class="hero-badge"><i class="fas fa-bolt"></i> No Upload &nbsp;·&nbsp; No Signup &nbsp;·&nbsp; No Limits &nbsp;·&nbsp; 100% Free</div>
+    <h1>Compress, Convert &amp; AI-Enhance<br><em>Your Images in One Click</em></h1>
+    <p>The smartest free image toolkit on the web. Shrink file sizes by up to 90%, convert between 27+ formats, and apply AI-powered enhancement all 100% inside your browser. Your images never leave your device.</p>
+    <div class="hero-btns">
+      <a class="btn btn-wh" onclick="goPage('single')"><i class="fas fa-compress-alt"></i> Compress Now Free</a>
+      <a class="btn btn-wh" onclick="goPage('converter')"><i class="fas fa-exchange-alt"></i> Convert Format Free</a>
+      <a class="btn btn-ghost" onclick="goPage('bulk')"><i class="fas fa-layer-group"></i> Bulk Compress</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num">90%</div><div class="stat-lbl">Smaller Files</div></div>
+      <div><div class="stat-num">27+</div><div class="stat-lbl">Format Pairs</div></div>
+      <div><div class="stat-num">6</div><div class="stat-lbl">AI Filters</div></div>
+      <div><div class="stat-num">0KB</div><div class="stat-lbl">Data Uploaded</div></div>
+    </div>
+  </div>
+
+  <div class="ad-unit">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9862020077766066"
+     crossorigin="anonymous"></script>
+<!-- banner ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9862020077766066"
+     data-ad-slot="8829269988"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+  <div class="section">
+    <div class="sec-title">One Toolkit. Every Image Tool You'll Ever Need.</div>
+    <div class="sec-sub">Professional image processing that used to cost money — now free, instant, and 100% private. No software. No account. No nonsense.</div>
+    <div class="tools-grid">
+      <div class="tool-card" onclick="goPage('single')">
+        <div class="card-icon"><i class="fas fa-compress-alt"></i></div>
+        <h3>🗜️ Shrink Images by 90% Instantly</h3>
+        <p>Drag, drop, and watch your JPG, PNG or WEBP shrink before your eyes. Live before/after preview. AI enhancement included. Zero uploads, zero waiting.</p>
+        <a class="btn btn-sm" onclick="goPage('single')">Compress Free <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="tool-card" onclick="goPage('bulk')">
+        <div class="card-icon"><i class="fas fa-layer-group"></i></div>
+        <h3>📦 Compress 100s of Images at Once</h3>
+        <p>Stop compressing one by one. Upload your entire folder, set quality once, and download everything in seconds. Built for photographers &amp; developers.</p>
+        <a class="btn btn-sm" onclick="goPage('bulk')">Bulk Compress <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="tool-card" onclick="goPage('converter')">
+        <div class="card-icon"><i class="fas fa-exchange-alt"></i></div>
+        <h3>🔄 Convert Any Format in Seconds</h3>
+        <p>JPG → PNG, JPG → PDF, PNG → WEBP, WEBP → JPG and 23 more pairs. Click a format, upload, download. The fastest image format switcher online.</p>
+        <a class="btn btn-sm" onclick="goPage('converter')">Convert Free <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="tool-card" onclick="goPage('single')">
+        <div class="card-icon" style="background:rgba(0,121,107,.14)"><i class="fas fa-wand-magic-sparkles" style="color:var(--dp)"></i></div>
+        <h3>✨ Make Your Photos Pop with AI</h3>
+        <p>Auto Enhance, HDR Boost, Vivid Colors, Sharpen, Denoise, Portrait Smooth — six AI filters that make ordinary images look extraordinary. Free, instant, private.</p>
+        <a class="btn btn-sm btn-ai" onclick="goPage('single')">Try AI Free <i class="fas fa-sparkles"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-alt">
+    <div class="sec-title">Upload. Click. Download. Done in 3 Seconds.</div>
+    <div class="sec-sub">No learning curve. No complicated settings. No account required. Just the result you need, instantly.</div>
+    <div class="how-grid">
+      <div class="how-item"><div class="how-num">1</div><h4>Drop Your Image</h4><p>Drag &amp; drop or click to pick any JPG, PNG, WEBP, BMP, or GIF from your device. Up to 20 MB supported.</p></div>
+      <div class="how-item"><div class="how-num">2</div><h4>Choose What You Want</h4><p>Pick your output format, fine-tune compression quality with a slider, or apply one of 6 AI enhancement filters.</p></div>
+      <div class="how-item"><div class="how-num">3</div><h4>Download Instantly</h4><p>Your processed image is ready in milliseconds. Click Download — saved straight to your device in the format you chose.</p></div>
+      <div class="how-item"><div class="how-num">🔒</div><h4>Your Images Stay Yours</h4><p>Everything runs inside your own browser. No file ever touches a server. Your photos are 100% private, 100% of the time.</p></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">27+ Format Conversions — Pick Your Pair &amp; Go</div>
+    <div class="sec-sub">Click any format pair below to jump straight to the converter with your settings pre-loaded and ready.</div>
+    <div class="fmt-tags">
+      <span class="fmt-tag" onclick="quickConv('jpg','png')">JPG → PNG</span>
+      <span class="fmt-tag" onclick="quickConv('jpg','webp')">JPG → WEBP</span>
+      <span class="fmt-tag" onclick="quickConv('jpg','bmp')">JPG → BMP</span>
+      <span class="fmt-tag" onclick="quickConv('jpg','gif')">JPG → GIF</span>
+      <span class="fmt-tag" onclick="quickConv('jpg','pdf')">JPG → PDF</span>
+      <span class="fmt-tag" onclick="quickConv('jpg','tiff')">JPG → TIFF</span>
+      <span class="fmt-tag" onclick="quickConv('jpg','heic')">JPG → HEIC</span>
+      <span class="fmt-tag" onclick="quickConv('png','jpg')">PNG → JPG</span>
+      <span class="fmt-tag" onclick="quickConv('png','webp')">PNG → WEBP</span>
+      <span class="fmt-tag" onclick="quickConv('png','bmp')">PNG → BMP</span>
+      <span class="fmt-tag" onclick="quickConv('png','gif')">PNG → GIF</span>
+      <span class="fmt-tag" onclick="quickConv('png','pdf')">PNG → PDF</span>
+      <span class="fmt-tag" onclick="quickConv('png','tiff')">PNG → TIFF</span>
+      <span class="fmt-tag" onclick="quickConv('png','heic')">PNG → HEIC</span>
+      <span class="fmt-tag" onclick="quickConv('bmp','jpg')">BMP → JPG</span>
+      <span class="fmt-tag" onclick="quickConv('bmp','webp')">BMP → WEBP</span>
+      <span class="fmt-tag" onclick="quickConv('bmp','pdf')">BMP → PDF</span>
+      <span class="fmt-tag" onclick="quickConv('bmp','tiff')">BMP → TIFF</span>
+      <span class="fmt-tag" onclick="quickConv('bmp','gif')">BMP → GIF</span>
+      <span class="fmt-tag" onclick="quickConv('bmp','heic')">BMP → HEIC</span>
+      <span class="fmt-tag" onclick="quickConv('webp','jpg')">WEBP → JPG</span>
+      <span class="fmt-tag" onclick="quickConv('webp','bmp')">WEBP → BMP</span>
+      <span class="fmt-tag" onclick="quickConv('webp','png')">WEBP → PNG</span>
+      <span class="fmt-tag" onclick="quickConv('webp','pdf')">WEBP → PDF</span>
+      <span class="fmt-tag" onclick="quickConv('webp','gif')">WEBP → GIF</span>
+      <span class="fmt-tag" onclick="quickConv('webp','tiff')">WEBP → TIFF</span>
+      <span class="fmt-tag" onclick="quickConv('webp','heic')">WEBP → HEIC</span>
+    </div>
+  </div>
+
+  <div class="section section-alt">
+    <div class="sec-title">Which Image Format Should You Use? A Complete Guide.</div>
+    <div class="sec-sub">Stop guessing which format to choose. This table tells you exactly when to use JPG, PNG, WEBP, BMP, GIF, PDF, TIFF, or HEIC.</div>
+    <div class="fmt-tbl-wrap">
+      <table class="fmt-tbl">
+        <thead><tr><th>Format</th><th>Best Use Case</th><th>Transparency</th><th>Compression</th><th>File Size</th></tr></thead>
+        <tbody>
+          <tr><td>JPG / JPEG</td><td>Photos, social media, web images</td><td>No</td><td>Lossy</td><td>Small</td></tr>
+          <tr><td>PNG</td><td>Graphics, logos, screenshots, icons</td><td>Yes</td><td>Lossless</td><td>Medium</td></tr>
+          <tr><td>WEBP</td><td>Modern web images, fast loading</td><td>Yes</td><td>Both</td><td>Very Small</td></tr>
+          <tr><td>BMP</td><td>Windows graphics, uncompressed storage</td><td>No</td><td>None</td><td>Very Large</td></tr>
+          <tr><td>GIF</td><td>Animations, simple graphics</td><td>Yes</td><td>Lossless</td><td>Small</td></tr>
+          <tr><td>PDF</td><td>Printable documents, image archives</td><td>No</td><td>Both</td><td>Medium</td></tr>
+          <tr><td>TIFF</td><td>Print, archiving, professional editing</td><td>Yes</td><td>Both</td><td>Very Large</td></tr>
+          <tr><td>HEIC</td><td>iPhone photos, Apple ecosystem</td><td>Yes</td><td>Lossy</td><td>Very Small</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">Why Smart Users Switch to Image Toolify</div>
+    <div class="sec-sub">Other tools make you create accounts, upload your photos to servers, or pay for basic features. Image Toolify doesn't — ever.</div>
+    <div class="trust-grid">
+      <div class="trust-item"><div class="trust-icon">🔒</div><h4>Zero Data Sent — Ever</h4><p>Files never leave your browser. No server. No cloud storage. No risk.</p></div>
+      <div class="trust-item"><div class="trust-icon">⚡</div><h4>Millisecond Results</h4><p>No upload wait. No queue. Processing is instant because it's all local.</p></div>
+      <div class="trust-item"><div class="trust-icon">💰</div><h4>Free. Forever. No Catch.</h4><p>No credit card. No trial. No watermark. No compressed output limits.</p></div>
+      <div class="trust-item"><div class="trust-icon">🤖</div><h4>AI That Actually Works</h4><p>6 smart enhancement filters that make your photos look professionally edited.</p></div>
+      <div class="trust-item"><div class="trust-icon">📦</div><h4>Batch Process Like a Pro</h4><p>Compress your entire photo library in one go. Hundreds of images at once.</p></div>
+      <div class="trust-item"><div class="trust-icon">🌐</div><h4>Every Format Covered</h4><p>27+ conversion pairs. JPG, PNG, WEBP, BMP, GIF, PDF, TIFF, HEIC — all here.</p></div>
+    </div>
+  </div>
+
+  <div class="section section-alt">
+    <div class="sec-title">Real Questions. Straight Answers.</div>
+    <div class="sec-sub">Everything you need to know about compressing, converting, and enhancing images online — no fluff.</div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Is Image Toolify really completely free — no hidden charges? <i class="fas fa-chevron-down"></i></div>
+        <div class="faq-a">Yes, 100% free. No credit card, no trial period, no "free tier" with limits, no watermarks on your output, and no premium features locked behind a paywall. Image Toolify is and will remain completely free to use for everyone.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">How do I convert JPG to PNG online without losing quality? <i class="fas fa-chevron-down"></i></div>
+        <div class="faq-a">Open the Converter tool, select JPG as the From format and PNG as the To format, then upload your image. PNG uses lossless compression, so your converted image will have zero quality loss compared to the original. Download happens instantly — no signup, no cost.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">How do I convert a JPG image to PDF online for free? <i class="fas fa-chevron-down"></i></div>
+        <div class="faq-a">Select JPG → PDF in the Converter, upload your photo, and download the PDF. Image Toolify uses the jsPDF library to generate a proper PDF document entirely in your browser — no file upload to any server, no cost, and no watermark added to your PDF.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">How do I reduce an image file size without making it look blurry? <i class="fas fa-chevron-down"></i></div>
+        <div class="faq-a">Open the Image Compressor and set the quality slider to 75–85%. At this range, most images lose 60–80% of their file size with no visible quality difference to the human eye. The live before/after preview lets you compare the original and compressed versions side by side before you download — so there are no surprises.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Are my photos safe? Does Image Toolify upload files to a server? <i class="fas fa-chevron-down"></i></div>
+        <div class="faq-a">Your photos are completely safe. Image Toolify processes everything locally inside your own browser using the HTML5 Canvas API. At no point is your image sent to, stored on, or processed by any external server or cloud service. When you close the tab, no trace of your image remains anywhere except on your own device.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">What image formats can I convert between using Image Toolify? <i class="fas fa-chevron-down"></i></div>
+        <div class="faq-a">Image Toolify supports 27+ conversion pairs. You can convert from JPG, PNG, WEBP, or BMP to any of the following output formats: JPG, PNG, WEBP, BMP, GIF, PDF, TIFF, and HEIC. This covers the most popular conversions including JPG to PNG, JPG to PDF, JPG to WEBP, PNG to JPG, WEBP to JPG, BMP to PNG, and many more.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">What exactly does the AI Image Enhancement do to my photo? <i class="fas fa-chevron-down"></i></div>
+        <div class="faq-a">The AI Enhancement applies six intelligent canvas-based filters: Auto Enhance automatically adjusts levels and exposure; HDR Effect adds dramatic tone mapping and micro-contrast; Vivid Colors boosts saturation for more pop; Sharpen uses an unsharp mask convolution to add crisp detail; Denoise applies a smoothing filter to reduce grain; and Portrait Smooth selectively softens skin tones while preserving non-skin detail.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">The Smarter Way to Handle Images Online</div>
+    <div class="seo-block">
+      <h3>What Makes Image Toolify Different from Other Online Image Tools?</h3>
+      <p>Most online image tools upload your photos to remote servers, process them there, then send them back — introducing privacy risks, upload delays, and file size limits. Image Toolify is different: every single operation — compression, conversion, and AI enhancement — runs entirely inside your browser using the HTML5 Canvas API. Your images are never transmitted anywhere. The result is instant processing, zero privacy risk, and no file size bottlenecks.</p>
+      <h3>When Should You Convert Your Image Format?</h3>
+      <ul>
+        <li><strong>JPG to PNG</strong> — when you need a transparent background or pixel-perfect lossless quality for logos, icons, and graphics.</li>
+        <li><strong>JPG to PDF</strong> — to turn a scanned document or photograph into a printable, shareable PDF file instantly.</li>
+        <li><strong>JPG to WEBP</strong> — to reduce image file size by 25–35% for faster website loading and higher Google PageSpeed scores.</li>
+        <li><strong>HEIC to JPG</strong> — to make iPhone photos universally compatible with Windows, Android, and all non-Apple devices.</li>
+        <li><strong>WEBP to JPG</strong> — to use modern web images in older software, email clients, or platforms that don't support WEBP yet.</li>
+      </ul>
+      <h3>How to Reduce Image File Size Without Losing Quality</h3>
+      <p>Open the Image Compressor, upload your photo, and move the quality slider to 75–85%. At this setting, most images lose 60–80% of their file size with no visible quality difference to the human eye. The real-time side-by-side preview lets you see exactly what you're getting before you hit download — so you always get the perfect balance of quality and file size.</p>
+      <h3>What's the Best Image Format for a Fast Website?</h3>
+      <p>In 2025, <strong>WEBP</strong> is the undisputed winner for website images — it delivers the same visual quality as JPG at 25–35% smaller file sizes, which directly improves Google PageSpeed scores and Core Web Vitals. Use <strong>JPG</strong> when maximum browser compatibility is needed and <strong>PNG</strong> for any graphic requiring a transparent background.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══ SINGLE COMPRESSOR ══ -->
+<div class="page" id="page-single">
+  <div class="tool-page">
+    <h2>Compress Images Online — Reduce File Size by Up to 90%, Free</h2>
+    <p class="subtitle">Drag. Drop. Shrink. Your JPG, PNG, or WEBP gets smaller in seconds — with a real-time before/after comparison. Apply AI enhancement first. Download instantly. Your files never leave your browser.</p>
+    <div class="ad-unit">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9862020077766066"
+     crossorigin="anonymous"></script>
+<!-- banner ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9862020077766066"
+     data-ad-slot="8829269988"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+    <div class="upload-box" id="sDropZone" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event,'single')">
+      <input type="file" id="sFileIn" accept="image/*" hidden>
+      <div class="upload-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+      <h3>Drop Your Image Here to Start Compressing</h3>
+      <p>Supports JPG · PNG · WEBP · BMP · GIF &nbsp;|&nbsp; Max 20 MB &nbsp;|&nbsp; Files never uploaded to any server</p>
+    </div>
+    <div id="sPreview" style="display:none">
+      <div class="ctrl-bar">
+        <label><i class="fas fa-sliders-h"></i> Quality</label>
+        <div class="q-badge" id="sQualVal">80%</div>
+        <input type="range" id="sQualRange" min="1" max="100" value="80">
+        <button class="btn btn-out btn-sm" onclick="resetSingle()"><i class="fas fa-undo"></i> Reset</button>
+      </div>
+      <div class="ai-panel">
+        <div class="ai-hd"><h4><i class="fas fa-wand-magic-sparkles" style="color:var(--pr)"></i> AI Enhancement</h4><div class="ai-badge"><i class="fas fa-sparkles"></i> Smart AI</div></div>
+        <div class="ai-grid">
+          <button class="ai-btn" onclick="applyAI('auto','single')"><i class="fas fa-magic"></i> Auto Enhance</button>
+          <button class="ai-btn" onclick="applyAI('hdr','single')"><i class="fas fa-sun"></i> HDR Effect</button>
+          <button class="ai-btn" onclick="applyAI('vivid','single')"><i class="fas fa-palette"></i> Vivid Colors</button>
+          <button class="ai-btn" onclick="applyAI('sharpen','single')"><i class="fas fa-crosshairs"></i> Sharpen</button>
+          <button class="ai-btn" onclick="applyAI('denoise','single')"><i class="fas fa-water"></i> Denoise</button>
+          <button class="ai-btn" onclick="applyAI('portrait','single')"><i class="fas fa-user"></i> Portrait Smooth</button>
+          <button class="ai-btn" onclick="applyAI('reset','single')"><i class="fas fa-rotate-left"></i> Original</button>
+        </div>
+        <div class="ai-prog" id="sAiProg"><div class="ai-prog-lbl" id="sAiLbl">Processing...</div><div class="ai-prog-bar"><div class="ai-prog-fill" id="sAiFill"></div></div></div>
+      </div>
+      <div class="save-bar" id="sSaveBar" style="display:none"><i class="fas fa-check-circle"></i><span id="sSaveText">Calculating...</span></div>
+      <div class="img-grid">
+        <div class="img-panel">
+          <div class="img-panel-hd"><span>Original</span><div class="sz-badge sz-orig" id="sOrigSize">—</div></div>
+          <img id="sOrigImg" alt="Original">
+        </div>
+        <div class="img-panel">
+          <div class="img-panel-hd"><span>Compressed</span><div class="sz-badge sz-comp" id="sCompSize">—</div></div>
+          <canvas id="sCanvas"></canvas>
+        </div>
+      </div>
+      <button class="btn" id="sDlBtn" style="font-size:.94rem;padding:12px 25px"><i class="fas fa-download"></i> Download Compressed Image</button>
+    </div>
+    <div style="margin-top:44px" class="seo-block">
+      <h3>How to Compress an Image Without Losing Quality</h3>
+      <p>Upload your image above, then drag the quality slider to find your sweet spot. The live side-by-side comparison updates instantly — you'll see the compressed file size and percentage saved in real time before you download anything. For an extra quality boost, apply an AI enhancement filter first, then compress.</p>
+      <h3>What Compression Quality Setting Should You Use?</h3>
+      <p>For most photos and web images: <strong>75–85%</strong> gives the best balance of quality and file size. For screenshots, infographics, or images with sharp text: <strong>85–92%</strong> preserves readability. For social media thumbnails, email previews, or tiny icons where file size matters most: <strong>50–65%</strong> works great.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══ BULK COMPRESSOR ══ -->
+<div class="page" id="page-bulk">
+  <div class="tool-page">
+    <h2>Bulk Image Compressor — Process Hundreds of Images in One Click</h2>
+    <p class="subtitle">Stop compressing photos one at a time. Upload your entire folder, set one quality level, apply AI enhancement to every file at once, and download everything in seconds — free, private, no limits.</p>
+    <div class="ad-unit"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9862020077766066"
+     crossorigin="anonymous"></script>
+<!-- banner ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9862020077766066"
+     data-ad-slot="8829269988"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+    <div class="upload-box" id="bDropZone" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event,'bulk')">
+      <input type="file" id="bFileIn" accept="image/*" multiple hidden>
+      <div class="upload-icon"><i class="fas fa-layer-group"></i></div>
+      <h3>Drop All Your Images Here at Once</h3>
+      <p>Select your entire folder · JPG, PNG, WEBP, BMP · No limit on file count · 100% private</p>
+    </div>
+    <div class="ctrl-bar" id="bCtrlBar" style="display:none">
+      <label><i class="fas fa-sliders-h"></i> Global Quality</label>
+      <div class="q-badge" id="bQualVal">80%</div>
+      <input type="range" id="bQualRange" min="1" max="100" value="80">
+      <button class="btn btn-sm" id="bDlAllBtn"><i class="fas fa-download"></i> Download All</button>
+    </div>
+    <div class="ai-panel" id="bAiPanel" style="display:none">
+      <div class="ai-hd"><h4><i class="fas fa-wand-magic-sparkles" style="color:var(--pr)"></i> AI Enhancement — Applied to All</h4><div class="ai-badge"><i class="fas fa-sparkles"></i> Batch AI</div></div>
+      <div class="ai-grid">
+        <button class="ai-btn" onclick="applyBulkAI('auto')"><i class="fas fa-magic"></i> Auto Enhance</button>
+        <button class="ai-btn" onclick="applyBulkAI('hdr')"><i class="fas fa-sun"></i> HDR Effect</button>
+        <button class="ai-btn" onclick="applyBulkAI('vivid')"><i class="fas fa-palette"></i> Vivid Colors</button>
+        <button class="ai-btn" onclick="applyBulkAI('sharpen')"><i class="fas fa-crosshairs"></i> Sharpen</button>
+        <button class="ai-btn" onclick="applyBulkAI('denoise')"><i class="fas fa-water"></i> Denoise</button>
+        <button class="ai-btn" onclick="applyBulkAI('reset')"><i class="fas fa-rotate-left"></i> Original</button>
+      </div>
+    </div>
+    <div class="bulk-list" id="bList"></div>
+  </div>
+</div>
+
+<!-- ══ CONVERTER ══ -->
+<div class="page" id="page-converter">
+  <div class="tool-page">
+    <h2>Image Format Converter — Convert JPG, PNG, WEBP, PDF &amp; More Free</h2>
+    <p class="subtitle">The fastest way to change image format online. Pick your From and To formats, upload your image, and download in seconds — 27+ conversion pairs, zero uploads to any server, zero cost, zero signup.</p>
+    <div class="ad-unit"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9862020077766066"
+     crossorigin="anonymous"></script>
+<!-- banner ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9862020077766066"
+     data-ad-slot="8829269988"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+    <div class="conv-wrap">
+      <div class="conv-row">
+        <div class="conv-sel">
+          <label><i class="fas fa-file-image"></i> From Format</label>
+          <select class="conv-select" id="cFromFmt">
+            <option value="jpg">JPG / JPEG</option>
+            <option value="png">PNG</option>
+            <option value="webp">WEBP</option>
+            <option value="bmp">BMP</option>
+          </select>
+        </div>
+        <div class="conv-arrow"><i class="fas fa-arrow-right"></i></div>
+        <div class="conv-sel">
+          <label><i class="fas fa-file-export"></i> To Format</label>
+          <select class="conv-select" id="cToFmt">
+            <option value="png">PNG</option>
+            <option value="jpg">JPG / JPEG</option>
+            <option value="webp">WEBP</option>
+            <option value="bmp">BMP</option>
+            <option value="gif">GIF</option>
+            <option value="pdf">PDF</option>
+            <option value="tiff">TIFF</option>
+            <option value="heic">HEIC</option>
+          </select>
+        </div>
+      </div>
+      <div style="margin-bottom:20px">
+        <p style="font-size:.74rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--dp);margin-bottom:9px">Quick Conversion Select</p>
+        <div style="display:flex;flex-wrap:wrap;gap:7px" id="cQuickPicks"></div>
+      </div>
+      <div class="conv-drop" id="cDropZone" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event,'conv')">
+        <input type="file" id="cFileIn" accept="image/*" hidden>
+        <div class="upload-icon"><i class="fas fa-exchange-alt"></i></div>
+        <h3 id="cUploadLbl">Drop your image here — conversion is instant</h3>
+        <p>Or click to browse &nbsp;·&nbsp; Files stay 100% on your device &nbsp;·&nbsp; Nothing ever uploaded</p>
+      </div>
+      <div class="ai-panel" id="cAiPanel" style="display:none;margin-bottom:17px">
+        <div class="ai-hd"><h4><i class="fas fa-wand-magic-sparkles" style="color:var(--pr)"></i> Enhance Before Converting</h4><div class="ai-badge"><i class="fas fa-sparkles"></i> Smart AI</div></div>
+        <div class="ai-grid">
+          <button class="ai-btn" onclick="applyAI('auto','conv')"><i class="fas fa-magic"></i> Auto Enhance</button>
+          <button class="ai-btn" onclick="applyAI('hdr','conv')"><i class="fas fa-sun"></i> HDR Effect</button>
+          <button class="ai-btn" onclick="applyAI('vivid','conv')"><i class="fas fa-palette"></i> Vivid Colors</button>
+          <button class="ai-btn" onclick="applyAI('sharpen','conv')"><i class="fas fa-crosshairs"></i> Sharpen</button>
+          <button class="ai-btn" onclick="applyAI('denoise','conv')"><i class="fas fa-water"></i> Denoise</button>
+          <button class="ai-btn" onclick="applyAI('reset','conv')"><i class="fas fa-rotate-left"></i> Original</button>
+        </div>
+        <div class="ai-prog" id="cAiProg"><div class="ai-prog-lbl" id="cAiLbl">Processing...</div><div class="ai-prog-bar"><div class="ai-prog-fill" id="cAiFill"></div></div></div>
+      </div>
+      <div class="conv-result" id="cResult">
+        <canvas id="cCanvas" style="display:none"></canvas>
+        <img id="cPrevImg" class="conv-img" alt="Converted preview">
+        <div class="conv-info" id="cInfoRow"></div>
+        <div class="conv-warn" id="cWarn" style="display:none"><i class="fas fa-exclamation-triangle"></i><span id="cWarnMsg"></span></div>
+        <button class="btn" id="cDlBtn" style="font-size:.94rem;padding:12px 25px"><i class="fas fa-download"></i> Download Converted Image</button>
+      </div>
+    </div>
+    <div style="margin-top:40px" class="seo-block">
+      <h3>How to Convert an Image Format Online in 3 Steps</h3>
+      <p>Choose your source format (From) and target format (To) in the dropdowns above — or click any Quick Conversion button to pre-fill both instantly. Upload your image. Your converted file is ready in milliseconds. Click Download to save it. That's it. No account, no waiting, no upload fees — ever.</p>
+      <h3>Why Convert JPG to WEBP? (And Why It Matters for Your Website)</h3>
+      <p>WEBP images are typically <strong>25–35% smaller</strong> than equivalent JPG files at the same perceived visual quality. Switching your website images from JPG to WEBP can directly boost your Google PageSpeed score, reduce bandwidth costs, and make pages load noticeably faster for visitors — especially on mobile. Image Toolify converts JPG to WEBP in your browser instantly, with no quality loss and no server required.</p>
+      <h3>What Happens to My Image During Conversion?</h3>
+      <p>Your image is read directly by your browser, drawn onto an invisible HTML5 Canvas, and exported in your chosen format — all locally on your device. The converted file is then offered to you as a download. At no point is your image sent to, stored on, or processed by any external server. It is 100% private and secure by design.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══ ABOUT ══ -->
+<div class="page" id="page-about">
+  <div class="inner-page">
+    <h2>About Image Toolify — Built for Speed, Privacy &amp; Simplicity</h2>
+    <p>Image Toolify was built out of frustration. Every other online image tool either uploads your photos to a remote server, slaps a watermark on your output, makes you create an account, or puts the most useful features behind a paywall. We decided there was a better way.</p>
+    <p>Every tool on Image Toolify — compression, format conversion, bulk processing, and AI enhancement — runs entirely inside your browser using the HTML5 Canvas API. Your images are never transmitted to any server, stored in any database, or seen by any person. Processing is instant because it's all local. There is no backend to maintain, no file queue to wait in, and no account to manage.</p>
+    <p>Whether you're a web developer optimizing images for PageSpeed, a photographer delivering client work, a blogger compressing screenshots before publishing, or a designer converting between formats for different clients — Image Toolify gives you a complete, professional-grade image workflow in one single page. For free. For good.</p>
+    <div class="feat-grid">
+      <div class="feat-item"><div class="fi">🔒</div><h4>Your Files Stay Yours</h4><p>Processing is 100% local. Files never leave your device — not even for a millisecond.</p></div>
+      <div class="feat-item"><div class="fi">⚡</div><h4>Instant, Not "Fast"</h4><p>No upload. No server round-trip. Results appear in milliseconds because it's all local.</p></div>
+      <div class="feat-item"><div class="fi">🤖</div><h4>AI That's Actually Useful</h4><p>6 canvas-based AI filters that visibly improve your photos — not marketing fluff.</p></div>
+      <div class="feat-item"><div class="fi">🔄</div><h4>Every Major Format</h4><p>27+ conversion pairs across JPG, PNG, WEBP, BMP, GIF, PDF, TIFF, and HEIC.</p></div>
+      <div class="feat-item"><div class="fi">📦</div><h4>Bulk Without the Bulk</h4><p>Process your entire photo library in one upload. No per-file limits or paywalls.</p></div>
+      <div class="feat-item"><div class="fi">💰</div><h4>Free Is Not a Trick</h4><p>No trial period. No "Pro" features. No credit card. Fully free for everyone, always.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ CONTACT ══ -->
+<div class="page" id="page-contact">
+  <div class="inner-page">
+    <h2>Get in Touch — We Actually Respond</h2>
+    <p>Got a question about how a tool works? Found a bug? Have a feature idea that would make Image Toolify even better? We'd love to hear from you. Drop us a message and we'll get back to you within 24–48 hours.</p>
+    <div class="contact-cards">
+      <div class="contact-card"><div class="ico">📧</div><h4>Email Us</h4><p><a href="/cdn-cgi/l/email-protection#e2919792928d9096a28b8f838587968d8d8e8b849bcc818d8f" style="color:var(--pr);font-weight:600"><span class="__cf_email__" data-cfemail="e3909693938c9197a38a8e828486978c8c8f8a859acd808c8e">[email&#160;protected]</span></a></p></div>
+      <div class="contact-card"><div class="ico">🐛</div><h4>Report a Bug</h4><p>Found an issue? Let us know and we'll fix it fast.</p></div>
+      <div class="contact-card"><div class="ico">💡</div><h4>Feature Request</h4><p>Have an idea? We'd love to hear your suggestions.</p></div>
+      <div class="contact-card"><div class="ico">🤝</div><h4>Business Inquiry</h4><p>Partnership, advertising or collaboration requests.</p></div>
+    </div>
+    <div style="background:var(--card);border:1.5px solid var(--border);border-radius:16px;padding:32px;box-shadow:0 4px 24px var(--sh)">
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;color:var(--dp);margin-bottom:20px;display:flex;align-items:center;gap:8px"><i class="fas fa-paper-plane" style="color:var(--pr)"></i> Send Us a Message</h3>
+      <div class="form-2col" style="display:grid;grid-template-columns:1fr 1fr;gap:15px">
+        <div class="form-group" style="margin-bottom:0"><label>Your Name *</label><input type="text" id="cName" placeholder="Jane Smith"></div>
+        <div class="form-group" style="margin-bottom:0"><label>Email Address *</label><input type="email" id="cEmail" placeholder="jane@example.com"></div>
+      </div>
+      <div class="form-group" style="margin-top:15px"><label>Subject</label><input type="text" id="cSubject" placeholder="e.g. Bug report, Feature request, General question"></div>
+      <div class="form-group"><label>Message *</label><textarea id="cMsg" placeholder="Describe your question or issue in detail. The more information you provide, the faster we can help." style="min-height:140px"></textarea></div>
+      <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+        <button class="btn" style="padding:12px 26px" onclick="submitContact()"><i class="fas fa-paper-plane"></i> Send Message</button>
+        <span style="color:var(--ts);font-size:.82rem">We typically respond within 24–48 hours.</span>
+      </div>
+      <div class="form-ok" id="formOk"><i class="fas fa-check-circle"></i> Message sent successfully! We'll get back to you within 24–48 hours.</div>
+    </div>
+    <div style="background:var(--panel);border:1.5px solid var(--border);border-radius:14px;padding:20px 22px;margin-top:24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      <div style="font-size:1.8rem">❓</div>
+      <div style="flex:1;min-width:180px"><h4 style="font-weight:700;color:var(--dp);margin-bottom:4px">Looking for a quick answer?</h4><p style="color:var(--ts);font-size:.87rem;margin:0">Check our FAQ section on the home page — it covers the most common questions about image conversion, compression, privacy, and supported formats.</p></div>
+      <button class="btn btn-out btn-sm" onclick="goPage('home')"><i class="fas fa-arrow-right"></i> Go to FAQ</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══ DISCLAIMER ══ -->
+<div class="page" id="page-disclaimer">
+  <div class="inner-page">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:8px"><div style="width:50px;height:50px;background:var(--lp);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.45rem;flex-shrink:0">⚖️</div><h2 style="margin:0">Disclaimer</h2></div>
+    <p class="date">Last Updated: January 2025 · Effective: January 2025</p>
+    <p>Please read this disclaimer carefully before using Image Toolify at <strong style="color:var(--dp)">imagetoolify.online</strong>. By accessing or using our service, you acknowledge that you have read, understood, and agree to be bound by these terms.</p>
+    <div class="legal-section"><h3><i class="fas fa-info-circle" style="color:var(--pr)"></i> General Information</h3><p>The information provided by Image Toolify on this website is for general informational and utility purposes only. All information on the site is provided in good faith; however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-shield-alt" style="color:var(--pr)"></i> No Warranty</h3><p>Image Toolify is provided on an "as is" and "as available" basis without any warranties of any kind, either express or implied. We do not warrant that the service will be uninterrupted, error-free, or free of viruses or other harmful components. Your use of the service is at your own sole risk.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-gavel" style="color:var(--pr)"></i> Limitation of Liability</h3><p>To the fullest extent permitted by applicable law, in no event shall Image Toolify, its directors, employees, partners, agents, suppliers, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages — including but not limited to loss of profits, data, use, goodwill, or other intangible losses — resulting from your access to or use of (or inability to access or use) the service.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-file-image" style="color:var(--pr)"></i> Image Processing Disclaimer</h3><p>All image processing on Image Toolify is performed entirely within your browser using the HTML5 Canvas API. We do not store, access, or transmit your images in any form. However, you are solely responsible for the content of images you process. You must ensure you have the necessary rights and permissions to process any image using our service.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-external-link-alt" style="color:var(--pr)"></i> External Links</h3><p>Our website may contain links to external websites not provided or maintained by us. We do not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites. The inclusion of any links does not necessarily imply a recommendation or endorsement.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-sync-alt" style="color:var(--pr)"></i> Changes to This Disclaimer</h3><p>We reserve the right to modify this disclaimer at any time without prior notice. Changes will be effective immediately upon posting to the website. Your continued use of the website after any changes constitutes your acceptance of the new disclaimer.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-map-marker-alt" style="color:var(--pr)"></i> Governing Law</h3><p>This disclaimer shall be governed by and interpreted in accordance with applicable laws. Any disputes arising under or in connection with this disclaimer shall be subject to the exclusive jurisdiction of the relevant courts.</p></div>
+    <div class="cta-banner"><div class="cta-banner-text"><h4>Questions About This Disclaimer?</h4><p>If you have any questions or concerns, please don't hesitate to contact us.</p></div><button class="btn btn-wh btn-sm" onclick="goPage('contact')"><i class="fas fa-envelope"></i> Contact Us</button></div>
+  </div>
+</div>
+
+<!-- ══ PRIVACY POLICY ══ -->
+<div class="page" id="page-privacy">
+  <div class="inner-page">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:8px"><div style="width:50px;height:50px;background:var(--lp);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.45rem;flex-shrink:0">🔒</div><h2 style="margin:0">Privacy Policy</h2></div>
+    <p class="date">Last Updated: January 2025 · Effective: January 2025</p>
+    <p>At Image Toolify (<strong style="color:var(--dp)">imagetoolify.online</strong>), your privacy is our highest priority. This Privacy Policy explains how we handle your information when you use our free online image converter and compressor.</p>
+    <div class="highlight-box"><div class="hi">✅</div><div><h4>Our Core Privacy Promise</h4><p>Image Toolify <strong style="color:var(--dp)">never uploads, stores, transmits, or accesses your images</strong>. All image processing happens entirely within your own browser using the HTML5 Canvas API. Your files never leave your device. Not even for a millisecond.</p></div></div>
+    <div class="legal-section"><h3><i class="fas fa-user" style="color:var(--pr)"></i> What Information We Collect</h3><p>We collect minimal data required to operate the website. This may include:</p><ul><li><strong>Usage Data:</strong> Pages visited, time spent, browser type, device type — collected anonymously via analytics tools.</li><li><strong>Contact Form Data:</strong> Your name, email address, and message when you voluntarily submit our contact form.</li><li><strong>Cookies:</strong> Small text files placed on your browser by analytics and advertising services.</li><li><strong>IP Address:</strong> Collected automatically by web servers and analytics services for security and geographic analytics.</li></ul></div>
+    <div class="legal-section"><h3><i class="fas fa-image" style="color:var(--pr)"></i> Your Images — Zero Data Collection</h3><p>We want to be absolutely clear: <strong style="color:var(--dp)">we do not collect, store, process, transmit, or have access to any images you upload or process using Image Toolify.</strong> All image operations use the browser's built-in HTML5 Canvas API and JavaScript — they run entirely on your local device. When you close the tab or refresh the page, no trace of your images remains anywhere on our side.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-chart-bar" style="color:var(--pr)"></i> Analytics &amp; Cookies</h3><p>We may use third-party analytics services such as <strong>Google Analytics</strong> to understand how visitors use our website. These services may collect pages you visit, time spent, device and browser type, and approximate geographic location. This data is collected anonymously and used only to improve our service. You can opt out of Google Analytics by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener" style="color:var(--pr)">Google Analytics Opt-out Browser Add-on</a>.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-ad" style="color:var(--pr)"></i> <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9862020077766066"
+     crossorigin="anonymous"></script>
+<!-- banner ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9862020077766066"
+     data-ad-slot="8829269988"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></h3><p>We display advertisements through <strong>Google AdSense</strong> to support the free operation of this website. Google AdSense uses cookies to serve ads based on your prior visits to this and other websites. You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color:var(--pr)">Google Ads Settings</a>.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-puzzle-piece" style="color:var(--pr)"></i> Third-Party Services</h3><p>Image Toolify integrates the following third-party services which may set their own cookies or collect data:</p><ul><li><strong>Google Fonts</strong> — for typography. May log your IP when fonts are loaded.</li><li><strong>Font Awesome (Cloudflare CDN)</strong> — for icons. Subject to Cloudflare's privacy policy.</li><li><strong>jsPDF (Cloudflare CDN)</strong> — for PDF generation. Loaded from cdnjs.cloudflare.com.</li></ul></div>
+    <div class="legal-section"><h3><i class="fas fa-share-alt" style="color:var(--pr)"></i> How We Use Your Information</h3><p>We use the limited information we collect solely to: operate, maintain, and improve the website and tools; understand how users interact with our website; respond to contact form submissions and support requests; serve relevant advertisements through Google AdSense; and detect, prevent, and address technical issues or security threats.</p><p>We do <strong style="color:var(--dp)">not</strong> sell, trade, or rent your personal information to any third parties for marketing purposes.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-user-shield" style="color:var(--pr)"></i> Your Rights &amp; Choices</h3><ul><li><strong>Right to Access:</strong> Request a copy of the personal data we hold about you.</li><li><strong>Right to Deletion:</strong> Request that we delete any personal information collected from you.</li><li><strong>Right to Opt-Out:</strong> Opt out of personalized advertising via Google Ads Settings.</li><li><strong>Cookie Control:</strong> Manage or disable cookies through your browser settings at any time.</li></ul></div>
+    <div class="legal-section"><h3><i class="fas fa-child" style="color:var(--pr)"></i> Children's Privacy</h3><p>Image Toolify is not directed to children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If you believe your child has provided us with personal information, please contact us immediately and we will take steps to delete such information.</p></div>
+    <div class="legal-section"><h3><i class="fas fa-edit" style="color:var(--pr)"></i> Changes to This Privacy Policy</h3><p>We may update this Privacy Policy from time to time to reflect changes in our practices or applicable laws. When we make changes, we will update the "Last Updated" date at the top of this page. Your continued use of Image Toolify after any changes indicates your acceptance of the updated policy.</p></div>
+    <div class="cta-banner"><div class="cta-banner-text"><h4>Questions About Our Privacy Policy?</h4><p>Contact us at <a href="/cdn-cgi/l/email-protection#f2818782829d8086b29b9f939597869d9d9e9b948bdc919d9f" style="color:#B2DFDB;font-weight:600"><span class="__cf_email__" data-cfemail="04777174746b7670446d69656361706b6b686d627d2a676b69">[email&#160;protected]</span></a></p></div><button class="btn btn-wh btn-sm" onclick="goPage('contact')"><i class="fas fa-envelope"></i> Contact Us</button></div>
+  </div>
+</div>
+
+</div><!-- /wrap -->
+
+<!-- SHARED FOOTER -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="logo" onclick="goPage('home')"><i class="fas fa-wand-magic-sparkles"></i>Image<span>Toolify</span></a>
+      <p>The smartest free ImageToolify toolkit on the web. Compress, convert, and AI-enhance images 100% in your browser, 100% private, 100% free. No signup ever.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Tools</h4>
+      <ul>
+        <li><a onclick="goPage('single')">Image Compressor</a></li>
+        <li><a onclick="goPage('bulk')">Bulk Compressor</a></li>
+        <li><a onclick="goPage('converter')">Image Converter</a></li>
+        <li><a onclick="goPage('single')">AI Enhancement</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a onclick="goPage('about')">About Us</a></li>
+        <li><a onclick="goPage('contact')">Contact</a></li>
+        <li><a onclick="goPage('disclaimer')">Disclaimer</a></li>
+        <li><a onclick="goPage('privacy')">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Share</h4>
+      <div class="social-row">
+        <a href="javascript:void(0)" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="javascript:void(0)" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="javascript:void(0)" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2025 ImageToolify. All Rights Reserved. &nbsp;</div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+/* ── SPARKLE ── */
+(function(){
+  var cv=document.getElementById('sparkle-canvas'),ctx=cv.getContext('2d'),W,H,ps=[];
+  var C=['#009688','#00796B','#B2DFDB','#26A69A','#4DB6AC','#80CBC4','rgba(255,255,255,.5)'];
+  function resize(){W=cv.width=innerWidth;H=cv.height=innerHeight}
+  function mkP(init){return{x:Math.random()*W,y:init?Math.random()*H:H+10,r:Math.random()*2+.4,a:Math.random()*.5+.08,sp:Math.random()*.4+.1,ang:Math.random()*Math.PI*2,da:(Math.random()-.5)*.018,tw:Math.random()*.025+.005,td:1,c:C[Math.floor(Math.random()*C.length)],star:Math.random()>.65,rot:Math.random()*Math.PI*2,rs:(Math.random()-.5)*.035,life:0,ml:200+Math.random()*400}}
+  function drawStar(p){ctx.save();ctx.translate(p.x,p.y);ctx.rotate(p.rot);ctx.globalAlpha=p.a*.75;ctx.fillStyle=p.c;ctx.beginPath();for(var i=0;i<8;i++){var a=i*Math.PI/4,r=i%2?p.r*.38:p.r*2.2;ctx.lineTo(Math.cos(a)*r,Math.sin(a)*r)}ctx.closePath();ctx.fill();ctx.restore()}
+  function loop(){
+    ctx.clearRect(0,0,W,H);
+    ps.forEach(function(p,i){
+      p.x+=Math.cos(p.ang)*p.sp;p.y+=Math.sin(p.ang)*p.sp*.4-.22;
+      p.ang+=p.da;p.rot+=p.rs;p.life++;p.a+=p.tw*p.td;
+      if(p.a>.72||p.a<.05)p.td*=-1;
+      if(p.life>p.ml||p.y<-20||p.x<-20||p.x>W+20)ps[i]=mkP(false);
+      if(p.star)drawStar(p);
+      else{ctx.save();ctx.globalAlpha=p.a;ctx.fillStyle=p.c;ctx.shadowColor=p.c;ctx.shadowBlur=p.r*4;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill();ctx.restore()}
+    });
+    requestAnimationFrame(loop);
+  }
+  addEventListener('resize',resize);resize();
+  ps=Array.from({length:130},function(_,i){return mkP(true)});
+  loop();
+})();
+
+/* ── THEME ── */
+function toggleTheme(){
+  var h=document.documentElement,dark=h.getAttribute('data-theme')==='dark';
+  h.setAttribute('data-theme',dark?'light':'dark');
+  document.getElementById('themeIcon').textContent=dark?'☀️':'🌙';
+  try{localStorage.setItem('theme',dark?'light':'dark')}catch(e){}
+}
+(function(){try{var s=localStorage.getItem('theme');if(s==='dark'){document.documentElement.setAttribute('data-theme','dark');var ic=document.getElementById('themeIcon');if(ic)ic.textContent='🌙'}}catch(e){}})();
+
+/* ── MOBILE NAV ── */
+function toggleMobileNav(){
+  var nav=document.getElementById('mobileNav');
+  var hbg=document.getElementById('hamburger');
+  var isOpen=nav.classList.contains('open');
+  if(isOpen){
+    nav.classList.remove('open');
+    hbg.classList.remove('open');
+    document.body.style.overflow='';
+    setTimeout(function(){nav.style.display='none'},300);
+  } else {
+    nav.style.display='block';
+    requestAnimationFrame(function(){nav.classList.add('open')});
+    hbg.classList.add('open');
+    document.body.style.overflow='hidden';
+  }
+}
+function closeMobileNav(e){
+  if(e && e.target!==document.getElementById('mobileNav'))return;
+  var nav=document.getElementById('mobileNav');
+  var hbg=document.getElementById('hamburger');
+  nav.classList.remove('open');
+  hbg.classList.remove('open');
+  document.body.style.overflow='';
+  setTimeout(function(){nav.style.display='none'},300);
+}
+// Close on ESC key
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape')closeMobileNav();
+});
+
+/* ── ROUTER ── */
+function goPage(n){
+  document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
+  var pg=document.getElementById('page-'+n);
+  if(pg)pg.classList.add('active');
+  // Update desktop nav
+  document.querySelectorAll('.nav-links li a').forEach(function(a){a.classList.remove('active')});
+  var nl=document.getElementById('nav-'+n);
+  if(nl)nl.classList.add('active');
+  // Update mobile nav
+  document.querySelectorAll('.mobile-drawer li a[id]').forEach(function(a){a.classList.remove('active')});
+  var mnl=document.getElementById('mnav-'+n);
+  if(mnl)mnl.classList.add('active');
+  window.scrollTo(0,0);
+}
+function quickConv(f,t){
+  document.getElementById('cFromFmt').value=f;
+  document.getElementById('cToFmt').value=t;
+  updateConvLbl();
+  goPage('converter');
+}
+
+/* ── DRAG ── */
+function onDragOver(e){e.preventDefault();e.currentTarget.classList.add('dragover')}
+function onDragLeave(e){e.currentTarget.classList.remove('dragover')}
+function onDrop(e,m){
+  e.preventDefault();e.currentTarget.classList.remove('dragover');
+  var f=e.dataTransfer.files;
+  if(m==='single')handleSingle(f[0]);
+  else if(m==='bulk')handleBulk(f);
+  else handleConv(f[0]);
+}
+
+/* ── FAQ ── */
+function toggleFaq(el){el.parentElement.classList.toggle('open')}
+
+/* ── UTILS ── */
+function fmtSz(b){if(b<1024)return b+' B';if(b<1048576)return(b/1024).toFixed(1)+' KB';return(b/1048576).toFixed(2)+' MB'}
+function clamp(v){return Math.max(0,Math.min(255,Math.round(v)))}
+function dlData(du,fn){var a=document.createElement('a');a.download=fn;a.href=du;document.body.appendChild(a);a.click();document.body.removeChild(a)}
+
+/* ── AI ENGINE ── */
+function aiProcess(src,mode){
+  return new Promise(function(res){
+    var t=document.createElement('canvas');t.width=src.width||src.naturalWidth||300;t.height=src.height||src.naturalHeight||300;
+    var ctx=t.getContext('2d');ctx.drawImage(src,0,0,t.width,t.height);
+    var id=ctx.getImageData(0,0,t.width,t.height),d=id.data,w=t.width,h=t.height;
+    if(mode==='auto'){
+      var rn=255,rx=0,gn=255,gx=0,bn=255,bx=0;
+      for(var i=0;i<d.length;i+=4){rn=Math.min(rn,d[i]);rx=Math.max(rx,d[i]);gn=Math.min(gn,d[i+1]);gx=Math.max(gx,d[i+1]);bn=Math.min(bn,d[i+2]);bx=Math.max(bx,d[i+2])}
+      var st=function(v,mn,mx){return mx>mn?Math.min(255,Math.round((v-mn)*255/(mx-mn))):v};
+      for(var i=0;i<d.length;i+=4){d[i]=st(d[i],rn,rx);d[i+1]=st(d[i+1],gn,gx);d[i+2]=st(d[i+2],bn,bx)}
+    }else if(mode==='hdr'){
+      for(var i=0;i<d.length;i+=4){var r=d[i]/255,g=d[i+1]/255,b=d[i+2]/255,l=.299*r+.587*g+.114*b,f=l>0?(l*1.4+.1)/l:1;d[i]=clamp(d[i]*f*1.1);d[i+1]=clamp(d[i+1]*f*1.05);d[i+2]=clamp(d[i+2]*f*.95);var av=(d[i]+d[i+1]+d[i+2])/3;d[i]=clamp(d[i]+(d[i]-av)*.4);d[i+1]=clamp(d[i+1]+(d[i+1]-av)*.4);d[i+2]=clamp(d[i+2]+(d[i+2]-av)*.4)}
+    }else if(mode==='vivid'){
+      for(var i=0;i<d.length;i+=4){var mx=Math.max(d[i],d[i+1],d[i+2]),mn=Math.min(d[i],d[i+1],d[i+2]),mid=(mx+mn)/2,s=1.6;d[i]=clamp(mid+(d[i]-mid)*s);d[i+1]=clamp(mid+(d[i+1]-mid)*s);d[i+2]=clamp(mid+(d[i+2]-mid)*s)}
+    }else if(mode==='sharpen'){
+      var k=[-1,-1,-1,-1,9,-1,-1,-1,-1],o=new Uint8ClampedArray(d);
+      for(var y=1;y<h-1;y++)for(var x=1;x<w-1;x++)for(var c=0;c<3;c++){var s=0;for(var ky=-1;ky<=1;ky++)for(var kx=-1;kx<=1;kx++)s+=d[((y+ky)*w+(x+kx))*4+c]*k[(ky+1)*3+(kx+1)];o[(y*w+x)*4+c]=clamp(s)}
+      id.data.set(o);
+    }else if(mode==='denoise'){
+      var o=new Uint8ClampedArray(d);
+      for(var y=1;y<h-1;y++)for(var x=1;x<w-1;x++)for(var c=0;c<3;c++){var s=0;for(var ky=-1;ky<=1;ky++)for(var kx=-1;kx<=1;kx++)s+=d[((y+ky)*w+(x+kx))*4+c];o[(y*w+x)*4+c]=Math.round(s/9)}
+      id.data.set(o);
+    }else if(mode==='portrait'){
+      var o=new Uint8ClampedArray(d);
+      for(var y=1;y<h-1;y++)for(var x=1;x<w-1;x++){var i0=(y*w+x)*4,r=d[i0],g=d[i0+1],b=d[i0+2];if(r>120&&g>80&&b>60&&r>g&&r>b)for(var c=0;c<3;c++){var s=0;for(var ky=-1;ky<=1;ky++)for(var kx=-1;kx<=1;kx++)s+=d[((y+ky)*w+(x+kx))*4+c];o[i0+c]=Math.round(s/9*.7+d[i0+c]*.3)}}
+      id.data.set(o);
+    }
+    ctx.putImageData(id,0,0);res(t);
+  });
+}
+
+function animProg(prefix,txt,cb){
+  var bar=document.getElementById(prefix+'AiProg'),fill=document.getElementById(prefix+'AiFill'),lbl=document.getElementById(prefix+'AiLbl');
+  if(!bar)return cb();
+  bar.style.display='block';lbl.textContent=txt;fill.style.width='0%';
+  var p=0,iv=setInterval(function(){p+=Math.random()*12+5;fill.style.width=Math.min(p,92)+'%';if(p>=92){clearInterval(iv);setTimeout(function(){fill.style.width='100%';setTimeout(function(){bar.style.display='none';cb()},300)},200)}},60);
+}
+
+/* ── SINGLE COMPRESSOR ── */
+var sImg=null,sOrigSz=0,sEnh=null;
+document.getElementById('sDropZone').onclick=function(){document.getElementById('sFileIn').click()};
+document.getElementById('sFileIn').onchange=function(e){handleSingle(e.target.files[0])};
+function handleSingle(file){
+  if(!file||!file.type.startsWith('image/'))return;
+  sOrigSz=file.size;sEnh=null;
+  var r=new FileReader();
+  r.onload=function(e){
+    var img=new Image();
+    img.onload=function(){
+      sImg=img;
+      document.getElementById('sOrigImg').src=e.target.result;
+      document.getElementById('sOrigSize').textContent=fmtSz(file.size);
+      document.getElementById('sPreview').style.display='block';
+      doCompress();
+    };
+    img.src=e.target.result;
+  };
+  r.readAsDataURL(file);
+}
+function doCompress(){
+  if(!sImg)return;
+  var q=document.getElementById('sQualRange').value/100;
+  var cv=document.getElementById('sCanvas'),ctx=cv.getContext('2d');
+  var src=sEnh||sImg;
+  cv.width=src.naturalWidth||src.width;cv.height=src.naturalHeight||src.height;
+  ctx.drawImage(src,0,0,cv.width,cv.height);
+  var du=cv.toDataURL('image/jpeg',q);
+  var sz=Math.round((du.length-'data:image/jpeg;base64,'.length)*3/4);
+  document.getElementById('sCompSize').textContent=fmtSz(sz);
+  var pct=Math.max(0,Math.round((sOrigSz-sz)/sOrigSz*100));
+  var sb=document.getElementById('sSaveBar');sb.style.display='flex';
+  document.getElementById('sSaveText').textContent=pct>0?'Saved '+fmtSz(sOrigSz-sz)+' — '+pct+'% reduction':'Image is already well optimized';
+  document.getElementById('sDlBtn').onclick=function(){dlData(du,'toolify-compressed.jpg')};
+}
+document.getElementById('sQualRange').oninput=function(e){
+  document.getElementById('sQualVal').textContent=e.target.value+'%';
+  doCompress();
+};
+function resetSingle(){
+  sImg=null;sEnh=null;
+  document.getElementById('sFileIn').value='';
+  document.getElementById('sPreview').style.display='none';
+}
+function applyAI(mode,ctx){
+  if(ctx==='single'){
+    if(!sImg){alert('Please upload an image first');return}
+    if(mode==='reset'){sEnh=null;doCompress();return}
+    var c=document.createElement('canvas'),src=sEnh||sImg;
+    c.width=sImg.naturalWidth||sImg.width;c.height=sImg.naturalHeight||sImg.height;
+    c.getContext('2d').drawImage(src,0,0,c.width,c.height);
+    animProg('s','Applying AI Enhancement...',function(){aiProcess(c,mode).then(function(r){sEnh=r;doCompress()})});
+  }else if(ctx==='conv'){
+    if(!cImg){alert('Please upload an image first');return}
+    if(mode==='reset'){cEnh=null;doConvert();return}
+    var cv=document.getElementById('cCanvas');
+    animProg('c','Applying AI Enhancement...',function(){aiProcess(cv,mode).then(function(r){cEnh=r;doConvert()})});
+  }
+}
+
+/* ── BULK COMPRESSOR ── */
+var bulkItems=[];
+document.getElementById('bDropZone').onclick=function(){document.getElementById('bFileIn').click()};
+document.getElementById('bFileIn').onchange=function(e){handleBulk(e.target.files)};
+function handleBulk(files){
+  if(!files||!files.length)return;
+  document.getElementById('bCtrlBar').style.display='flex';
+  document.getElementById('bAiPanel').style.display='block';
+  document.getElementById('bList').innerHTML='';
+  bulkItems=[];
+  Array.from(files).forEach(function(file,i){
+    if(!file.type.startsWith('image/'))return;
+    var r=new FileReader();
+    r.onload=function(e){
+      var img=new Image();
+      img.onload=function(){bulkItems[i]={img:img,file:file,src:e.target.result,du:null,enh:null};renderBulk(i)};
+      img.src=e.target.result;
+    };
+    r.readAsDataURL(file);
+  });
+}
+function renderBulk(i){
+  var it=bulkItems[i];if(!it)return;
+  var q=document.getElementById('bQualRange').value/100;
+  var c=document.createElement('canvas'),src=it.enh||it.img;
+  c.width=src.naturalWidth||src.width;c.height=src.naturalHeight||src.height;
+  c.getContext('2d').drawImage(src,0,0,c.width,c.height);
+  var du=c.toDataURL('image/jpeg',q);it.du=du;
+  var sz=Math.round((du.length-'data:image/jpeg;base64,'.length)*3/4);
+  var pct=Math.max(0,Math.round((it.file.size-sz)/it.file.size*100));
+  var el=document.getElementById('bi'+i)||document.createElement('div');
+  el.className='bulk-item';el.id='bi'+i;
+  el.innerHTML='<img class="bulk-thumb" src="'+it.src+'" alt=""><div class="bulk-info"><div class="bulk-name">'+it.file.name+'</div><div class="bulk-meta">'+fmtSz(it.file.size)+' → '+fmtSz(sz)+'</div></div><div class="bulk-pct">-'+pct+'%</div><button class="btn btn-out btn-sm" onclick="dlBulk('+i+')"><i class="fas fa-download"></i></button>';
+  if(!document.getElementById('bi'+i))document.getElementById('bList').appendChild(el);
+}
+function dlBulk(i){var it=bulkItems[i];if(!it||!it.du)return;dlData(it.du,'toolify-'+it.file.name.replace(/\.[^.]+$/,'')+'.jpg')}
+document.getElementById('bDlAllBtn').onclick=function(){bulkItems.forEach(function(it,i){if(it&&it.du)setTimeout(function(){dlBulk(i)},i*350)})};
+document.getElementById('bQualRange').oninput=function(e){document.getElementById('bQualVal').textContent=e.target.value+'%';bulkItems.forEach(function(_,i){renderBulk(i)})};
+async function applyBulkAI(mode){
+  if(!bulkItems.length){alert('Please upload images first');return}
+  if(mode==='reset'){bulkItems.forEach(function(it){if(it)it.enh=null});bulkItems.forEach(function(_,i){renderBulk(i)});return}
+  for(var i=0;i<bulkItems.length;i++){
+    var it=bulkItems[i];if(!it)continue;
+    var c=document.createElement('canvas'),src=it.enh||it.img;
+    c.width=src.naturalWidth||src.width;c.height=src.naturalHeight||src.height;
+    c.getContext('2d').drawImage(src,0,0,c.width,c.height);
+    it.enh=await aiProcess(c,mode);renderBulk(i);
+  }
+}
+
+/* ── CONVERTER ── */
+var cImg=null,cFile=null,cEnh=null;
+var QP=[['JPG','PNG'],['JPG','WEBP'],['JPG','BMP'],['JPG','GIF'],['JPG','PDF'],['JPG','TIFF'],['JPG','HEIC'],['PNG','JPG'],['PNG','WEBP'],['PNG','PDF'],['PNG','BMP'],['PNG','GIF'],['PNG','TIFF'],['PNG','HEIC'],['BMP','JPG'],['BMP','WEBP'],['BMP','PDF'],['BMP','TIFF'],['BMP','GIF'],['BMP','HEIC'],['WEBP','JPG'],['WEBP','BMP'],['WEBP','PNG'],['WEBP','PDF'],['WEBP','GIF'],['WEBP','TIFF'],['WEBP','HEIC']];
+var qpc=document.getElementById('cQuickPicks');
+QP.forEach(function(pair){
+  var b=document.createElement('span');b.className='fmt-tag';b.textContent=pair[0]+' → '+pair[1];
+  b.onclick=function(){document.getElementById('cFromFmt').value=pair[0].toLowerCase();document.getElementById('cToFmt').value=pair[1].toLowerCase();updateConvLbl();if(cImg)doConvert()};
+  qpc.appendChild(b);
+});
+function updateConvLbl(){
+  var f=document.getElementById('cFromFmt').value.toUpperCase(),t=document.getElementById('cToFmt').value.toUpperCase();
+  document.getElementById('cUploadLbl').textContent='Drop your '+f+' here to convert to '+t;
+}
+document.getElementById('cFromFmt').onchange=updateConvLbl;
+document.getElementById('cToFmt').onchange=function(){updateConvLbl();if(cImg)doConvert()};
+document.getElementById('cDropZone').onclick=function(){document.getElementById('cFileIn').click()};
+document.getElementById('cFileIn').onchange=function(e){handleConv(e.target.files[0])};
+function handleConv(file){
+  if(!file||!file.type.startsWith('image/'))return;
+  cFile=file;cEnh=null;
+  var r=new FileReader();
+  r.onload=function(e){
+    var img=new Image();
+    img.onload=function(){
+      cImg=img;
+      var cv=document.getElementById('cCanvas');
+      cv.width=img.naturalWidth;cv.height=img.naturalHeight;
+      cv.getContext('2d').drawImage(img,0,0);
+      document.getElementById('cAiPanel').style.display='block';
+      doConvert();
+    };
+    img.src=e.target.result;
+  };
+  r.readAsDataURL(file);
+}
+async function doConvert(){
+  if(!cImg)return;
+  var tf=document.getElementById('cToFmt').value;
+  var cv=document.getElementById('cCanvas');
+  if(cEnh){cv.width=cEnh.width;cv.height=cEnh.height;cv.getContext('2d').drawImage(cEnh,0,0)}
+  else{cv.width=cImg.naturalWidth;cv.height=cImg.naturalHeight;cv.getContext('2d').drawImage(cImg,0,0)}
+  var res=document.getElementById('cResult'),prev=document.getElementById('cPrevImg'),warn=document.getElementById('cWarn');
+  res.style.display='block';warn.style.display='none';prev.style.display='block';
+  var du,ext;
+  if(tf==='jpg'){du=cv.toDataURL('image/jpeg',.92);ext='jpg'}
+  else if(tf==='png'){du=cv.toDataURL('image/png');ext='png'}
+  else if(tf==='webp'){du=cv.toDataURL('image/webp',.92);ext='webp'}
+  else if(tf==='bmp'){du=canvasToBMP(cv);ext='bmp'}
+  else if(tf==='gif'){du=cv.toDataURL('image/png');ext='gif';warn.style.display='flex';document.getElementById('cWarnMsg').textContent='Note: True GIF encoding is not natively supported in browsers. File saved as PNG with .gif extension.'}
+  else if(tf==='pdf'){du=await canvasToPDF(cv);ext='pdf'}
+  else if(tf==='tiff'){du=cv.toDataURL('image/png');ext='tiff';warn.style.display='flex';document.getElementById('cWarnMsg').textContent='TIFF is not natively supported in browsers. Saved as PNG with .tiff extension.'}
+  else if(tf==='heic'){du=cv.toDataURL('image/jpeg',.92);ext='heic';warn.style.display='flex';document.getElementById('cWarnMsg').textContent='HEIC requires native codec support unavailable in browsers. Saved as JPEG with .heic extension.'}
+  prev.src=tf==='pdf'?cv.toDataURL('image/jpeg',.7):du;
+  var sz=Math.round((du.length-du.indexOf(',')-1)*3/4);
+  document.getElementById('cInfoRow').innerHTML='<div class="conv-chip">'+cv.width+'×'+cv.height+' <span>px</span></div><div class="conv-chip">Output: <span>'+fmtSz(sz)+'</span></div><div class="conv-chip">Format: <span>'+ext.toUpperCase()+'</span></div><div class="conv-chip">Original: <span>'+fmtSz(cFile.size)+'</span></div>';
+  var bn=cFile.name.replace(/\.[^.]+$/,'')||'image';
+  document.getElementById('cDlBtn').onclick=function(){dlData(du,bn+'-toolify.'+ext)};
+}
+function canvasToBMP(canvas){
+  var w=canvas.width,h=canvas.height,d=canvas.getContext('2d').getImageData(0,0,w,h).data;
+  var rB=Math.ceil(w*3/4)*4,pB=rB*h,buf=new ArrayBuffer(54+pB),v=new DataView(buf);
+  v.setUint16(0,0x4D42,true);v.setUint32(2,54+pB,true);v.setUint32(6,0,true);v.setUint32(10,54,true);
+  v.setUint32(14,40,true);v.setInt32(18,w,true);v.setInt32(22,-h,true);v.setUint16(26,1,true);v.setUint16(28,24,true);
+  v.setUint32(30,0,true);v.setUint32(34,pB,true);v.setInt32(38,2835,true);v.setInt32(42,2835,true);v.setUint32(46,0,true);v.setUint32(50,0,true);
+  var off=54;
+  for(var y=0;y<h;y++){for(var x=0;x<w;x++){var i=(y*w+x)*4;v.setUint8(off++,d[i+2]);v.setUint8(off++,d[i+1]);v.setUint8(off++,d[i])}var p=rB-w*3;for(var k=0;k<p;k++)v.setUint8(off++,0)}
+  var bytes=new Uint8Array(buf),bin='';
+  for(var i=0;i<bytes.length;i++)bin+=String.fromCharCode(bytes[i]);
+  return 'data:image/bmp;base64,'+btoa(bin);
+}
+async function canvasToPDF(canvas){
+  return new Promise(function(res){
+    try{
+      var jsPDF=window.jspdf.jsPDF;
+      var id=canvas.toDataURL('image/jpeg',.88);
+      var doc=new jsPDF({orientation:canvas.width>canvas.height?'l':'p',unit:'px',format:[canvas.width,canvas.height]});
+      doc.addImage(id,'JPEG',0,0,canvas.width,canvas.height);
+      res(doc.output('datauristring'));
+    }catch(e){res(canvas.toDataURL('image/jpeg',.88))}
+  });
+}
+
+/* ── CONTACT FORM ── */
+function submitContact(){
+  var n=document.getElementById('cName').value.trim();
+  var e=document.getElementById('cEmail').value.trim();
+  var m=document.getElementById('cMsg').value.trim();
+  if(!n||!e||!m){alert('Please fill in your name, email, and message.');return}
+  var ok=document.getElementById('formOk');
+  ok.style.display='flex';
+  document.getElementById('cName').value='';
+  document.getElementById('cEmail').value='';
+  var sub=document.getElementById('cSubject');if(sub)sub.value='';
+  document.getElementById('cMsg').value='';
+}
+
+/* Init */
+updateConvLbl();
+</script>
+</body>
+</html>
